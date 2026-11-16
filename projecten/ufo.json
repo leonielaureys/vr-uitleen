@@ -1,0 +1,2949 @@
+{
+ "id": "ufo",
+ "naam": "Ufo",
+ "soort": "gebouw",
+ "status": "aanname",
+ "ifc": "ufo.ifc",
+ "laagstePeil": -7.22,
+ "voetpeil": 0.0,
+ "beschrijving": "UFO — Universiteitsforum (gebouw 27.21): kelder met fietsenberging en garage, souterrain met foyer, gelijkvloers met inkom en auditoria, auditoria en bibliotheek op de eerste verdieping, kantoren op de tweede en derde. In AR staat het gelijkvloers (0,00 = +23,04 op de plannen) op je voeten.",
+ "bron": "DXF 27.21.080 t.e.m. 27.21.140 — documentatieplannen (actuele toestand)",
+ "peilen": {
+  "Nulpeil": "0,00 = vloer gelijkvloers = +23,04 op de plannen",
+  "Niveaus": "080 = -7,14; 090 = -3,91; 100 = +0,00; 110 = +5,27; 120 = +9,18; 130 = +13,09",
+  "Dak": "+17,00 (plan 27,21,140: +40,04)",
+  "Bronnen": "DXF 27.21.080 t.e.m. 27.21.140 (documentatieplannen, actuele toestand)"
+ },
+ "aannames": {
+  "Vloerzones": "dikte per verdieping gemeten op de gevel van 2005; alleen de tweede verdieping is een aanname (1,00 m)",
+  "Dakopstand": "60 cm — aanname",
+  "Raamhoogte": "borstwering 90 cm, hoogte tot 2,40 m — aanname uit de verdiepingshoogte",
+  "Wapening": "de bekistingsplannen geven de vorm, niet de wapening. De vloeren zijn voorgespannen welfsels: hun wapening ligt bij de fabrikant. De app berekent de wapening volgens de Eurocodes en toont ze als aanname."
+ },
+ "gevel2005": {
+  "Bron": "DWG 27.21 Het Ufo (oostgevel) en 27.21 Straatgevel, aanbestedingsdossier 2004/087, architecten Stéphane Beel + Xaveer de Geyter, stabiliteit S.W.K. n.v.",
+  "Peilen op de gevel": "+15,50 / +15,90 / +18,18 / +19,13 / +22,01 / +23,04 / +25,25 / +27,425 / +28,31 / +29,595 / +31,19 / +31,765 / +33,935 / +35,10 / +36,185 / +39,01 / +40,095 / +45,93",
+  "Vloerzones (onderkant → vloer)": "080: gevel 2005: onderkant +15,50 → vloer +15,90; 090: gevel 2005: onderkant +18,18 → vloer +19,13; 100: gevel 2005: onderkant +22,01 → vloer +23,04; 110: gevel 2005: onderkant +27,425 → vloer +28,31; 120: aanname: de gevel geeft +31,19 en +31,765, het plan van 2010 geeft +32,22; 130: gevel 2005: onderkant +35,10 → vloer +36,185",
+  "Dakzone": "gevel 2005: onderkant +39,01 → dak +40,095",
+  "Hoogste punt": "+45,93 volgens de oostgevel (lift- en technische kokers boven het dak). Niet gemodelleerd: de plattegronden tonen dat dakvolume niet.",
+  "Maaiveld langs de straat": "loopt van +18,49 tot +22,73 (pasaanduidingen op de gevel)",
+  "Afwijking": "De gevel geeft voor de tweede verdieping +31,19 en +31,765, het plan van 2010 geeft +32,22 (verschil 45 cm). Het model volgt het plan van 2010; de vloerzone is daar een aanname."
+ },
+ "draagstructuur": {
+  "Bron": "Bekistingsplannen S1 t.e.m. S48 (volledige reeks, enkel blad S9 ontbreekt), uitvoeringsdossier Project 255, stabiliteit N.V. studiebureau S.W.K. / ARCADIS Belgium, 2005-2009",
+  "Systeem": "Staalskelet met voorgespannen welfsels en een ter plaatse gestorte druklaag; onderbouw in gewapend beton op palen",
+  "Kolommen": "HD 400x651 van de fundering tot de eerste verdieping, HEM 400 op de tweede en derde verdieping (doorsnede 1-1, blad S11). Tussen de assen H en I lopen de stalen kolommen door van peil +35,99 tot +39,22 (blad S44, detail op 1/10).",
+  "Structurele peilen": "plaat boven verdieping +3 op +35,99 (bladen S45 en S46, bevestigd door de wapeningsplannen W70, W71 en W72); in de zone A-D ligt diezelfde plaat 15 cm lager, op +35,84 (W69). Het plan van 2010 geeft +36,13 als afgewerkte vloer, het verschil is de vloeropbouw. Stalen kolommen tot +39,22 (S44); de dakplaat ligt op +39,72 (W76), de dakbalken op +39,82 (W75) en de wand op as L’ loopt tot +40,04 (W66), het dakpeil van dit model.",
+  "Vloeren": "080: funderingsplaat op palen, 35 cm (S1 – funderingsplaat verdieping -2); 090: plaat ter plaatse gestort, 25 cm (plaatselijk 15 cm) (S2 – plaat boven verdieping -2); 100: plaat ter plaatse gestort, 50 cm, op balken 65 cm (S3 – plaat boven verdieping -1); 110: voorgespannen welfsels + druklaag 10 cm, op balken 74 cm (S4 – plaat boven verdieping 0); 120: voorgespannen welfsels + druklaag 10 cm, op balken 74/58 cm (S5 – verdieping +2); 130: voorgespannen welfsels + druklaag 10 cm, op balken 58 cm (S6 – verdieping +3)",
+  "Dak": "voorgespannen welfsels 20 cm + druklaag 5 cm, op balken 60 cm (S7 – dakniveau as H→L; S11 – doorsnede 1-1)",
+  "Auditorium": "stalen dakconstructie met vakwerkliggers en windverbanden boven het auditorium (blad S8)",
+  "Fundering": "funderingsplaat op palen, peil +15,82 / +15,52 (blad S1, doorsnede 1-1)",
+  "Balken": "genummerd per niveau: B-2 (plaat boven verdieping -2, bladen S21-S24), B-1 (S25-S30), B+1 (S35-S37 en S40), B+2 (S38-S39 en S41-S42), B+3 (S45-S46), B+4 (S48, dakstructuur)",
+  "Wanden": "technisch verdiep 90: WT1 t.e.m. WT23 (blad S31); trap B: W43 t.e.m. W48 van +18,93 tot +36,13 (blad S33); trap A: W49 t.e.m. W53 en WT22 van +18,93 tot +40,04 (blad S34); W39' t.e.m. W40'C (blad S47)",
+  "Doorsneden": "1-1 t.e.m. 12-12 (bladen S11 t.e.m. S20, S32 en S43)",
+  "Niet in deze reeks": "blad S9 ontbreekt. Bekistingsplannen geven de vorm en de materialen, niet de staafwapening zelf; daarvoor zijn de wapeningsplannen en buigstaten nodig."
+ },
+ "materialen": {
+  "Bron": "Nota op de bekistingsplannen S21 t.e.m. S40 (uitvoeringsdossier Project 255, S.W.K. / ARCADIS)",
+  "Zuiverheidslaag": "mager beton C16/20 – EE1",
+  "Boorpalen": "C25/30",
+  "Kolommen": "gewapend beton C35/45 – EE2 (waar niet in staal uitgevoerd)",
+  "Overige elementen": "gewapend beton C30/37 – EE3",
+  "Wapeningsstaal": "BE 500S (fyk = 500 MPa)",
+  "Betondekking in contact met grond, grondwater of buitenlucht": "paalkoppen en funderingszolen 50 mm; overige elementen 40 mm",
+  "Betondekking niet in contact met grond, grondwater of buitenlucht": "overige elementen 30 mm",
+  "Overlappingslengte losse staven": "60 × Ø (tenzij op plan of buigstaat anders vermeld)",
+  "Overlappingslengte gepuntlaste netwapening": "40 × Ø",
+  "Paalwapening": "40 × Ø verankeren in de paalkop of in de plaat"
+ },
+ "wapeningPlan": {
+  "C-2, D-2, E-2, C-3, D-3": {
+   "aantal kolommen": 5,
+   "vorm": "ovale kolom; beugel 860 × 160 mm met R = 160 mm",
+   "langsstaven": "S1: 2×8 Ø28 × 3300 mm; S2: 2×7 Ø28 × 3300 mm",
+   "beugels": "S3: 2×16 Ø12 × 2220 mm alle 150 mm",
+   "staal": "BE 500S",
+   "bron": "W5 (2007)"
+  },
+  "E-3, F-3, G-3, H-3, J-3": {
+   "aantal kolommen": 5,
+   "vorm": "ovale kolom; beugel 860 × 160 mm met R = 160 mm",
+   "langsstaven": "S5: 2×6 Ø32 × 3400 mm; S6: 2×9 Ø32 × 3400 mm",
+   "beugels": "S7: 2×16 Ø12 × 2220 mm alle 150 mm",
+   "staal": "BE 500S",
+   "bron": "W5 (2007)"
+  },
+  "F-2, G-2, H-2, J-2, I-2, I-3": {
+   "aantal kolommen": 6,
+   "vorm": "ovale kolom; beugel 860 × 160 mm met R = 160 mm",
+   "langsstaven": "S11: 2×6 Ø32 × 3400 mm; S11a: 2×3 Ø32 × 3000 mm; S12: 2×9 Ø32 × 3400 mm",
+   "beugels": "S13: 2×16 Ø12 × 2220 mm alle 150 mm",
+   "staal": "BE 500S",
+   "bron": "W5 (2007)"
+  },
+  "A-4, B-4, C-4": {
+   "aantal kolommen": 3,
+   "vorm": "wandkolom 2390 × 270 mm",
+   "langsstaven": "S15: 2×4 Ø20 × 3300 mm; S16: 2×15 Ø20 × 3300 mm alle 150 mm; S17: 2×16 Ø16 × 3000 mm alle 150 mm",
+   "beugels": "S18: 16 Ø12 × 6800 mm alle 150 mm",
+   "staal": "BE 500S",
+   "bron": "W5 (2007)",
+   "nota": "zie ook het wapeningsplan van wand W4 voor de wachtstaven uit kolom A-4"
+  },
+  "E-4": {
+   "aantal kolommen": 1,
+   "vorm": "wandkolom 2390 × 270 mm",
+   "langsstaven": "S21: 2×4 Ø20 × 3300 mm; S22: 2×31 Ø20 × 3300 mm alle 75 mm",
+   "beugels": "S23: 16 Ø12 × 6800 mm alle 150 mm",
+   "staal": "BE 500S",
+   "bron": "W5 (2007)"
+  }
+ },
+ "wapeningBalken": {
+  "Balk -2, As C, 1-4": {
+   "onder": "S21: 4 Ø32 × 32700 mm [12200 + 8300 + 12200]; S22: 2 Ø32 × 9000 mm; S22a: 2 Ø32 × 3500 mm; S23: 2 Ø32 × 8300 mm (as 1-2 en as 2-3); S24: 5+4 Ø25 × 7000 mm",
+   "boven": "S31: 6 Ø32 × 34400 mm; S32: 4+5 Ø25 × 7200 mm (as 2 en as 3); S33: 4+4 Ø32 × 7200 mm (as 2 en as 3); S34: 15 Ø28 × 5500 mm; S35: 15 Ø25 × 4800 mm",
+   "zijkant": "S27: 2+2 Ø12 × 30300 mm alle 250 mm; S28a: 2+2 Ø12 × 1200 mm alle 250 mm; S28b: 2+2 Ø12 × 1400 mm alle 250 mm",
+   "beugels": "S36: 142 Ø12 × 4360 mm alle 150 mm; S37: 2×142 Ø12 × 1050 mm alle 150 mm; S38: 142 Ø12 × 2120 mm alle 150 mm",
+   "knooppunt balk/kolom": "S41: 2× 4+4 Ø25 × 2000 mm; S42: 2× 2 Ø32 × 3500 mm; S43: 2× 10 Ø25 × 1400 mm",
+   "staal": "BE 500S",
+   "bron": "W23 (2007)"
+  },
+  "Balk -2, As D, 1-4": {
+   "onder": "S51a: 2 Ø32 × 32700 mm [12200 + 8300 + 12200]; S51b: 2 Ø32 × 21600 mm [12200 + 9400]; S52: 2 Ø32 × 9000 mm; S52a: 2 Ø32 × 5000 mm; S53: 2 Ø32 × 8300 mm (as 1-2 en as 2-3); S54: 4+4 Ø32 × 7000 mm",
+   "boven": "S61a: 3 Ø32 × 27200 mm; S61b: 2 Ø32 × 34400 mm; S61c: 1 Ø32 × 25200 mm; S61d: 1 Ø32 × 4000 mm; S62: 4+4 Ø25 × 7200 mm (as 2); S63: 4 Ø32 × 7200 mm",
+   "zijkant": "S57a: 2 Ø12 × 24000 mm alle 250 mm (achter); S57b: 2 Ø12 × 30300 mm alle 250 mm (voor); S58: 2+2 Ø12 × 1200 mm alle 250 mm; S64: 16 Ø28 × 5500 mm; S65: 4 Ø20 × 2450 mm",
+   "beugels": "S66: 139 Ø12 × 5100 mm alle 150 mm; S67: 139 Ø12 × 1000 mm alle 150 mm; S68: 139 Ø12 × 1980 mm alle 150 mm; S69: 11 Ø12 × variabel alle 75 mm; S70: 42 Ø12 × 3100 mm; S70a: 14 Ø12 × 3850 mm",
+   "knooppunt balk/kolom": "S76: 2× 4+4 Ø25 × 2000 mm; S77: 2× 2 Ø32 × 3500 mm; S78: 2× 10 Ø25 × 1400 mm",
+   "staal": "BE 500S",
+   "bron": "W23 (2007)"
+  }
+ },
+ "stramien": {
+  "letters": "A t.e.m. L, twaalf assen om de 8,80 m (uit de DWG 27.21 Het Ufo, laag 45-aslijnaanduiding)",
+  "totale lengte": "96,78 m van as A tot as L",
+  "cijfers": "1 t.e.m. 4, dwars op de letters (uit de wapenings- en bekistingsplannen)",
+  "richting": "de letterassen lopen onder 82,93° in de coördinaten van het model",
+  "as A": "lengtecoördinaat 115,1 m; as L op 18,3 m. Welke kant as A is, volgt uit de daken: de zone met de plaat boven +4 (W75: dakbalken +39,82; W76: plaat +39,72; dak +40,04) is in het model de helft met de bovenste verdieping, en die zone heet op de bladen H-L. De zone die op +3 stopt (W69: +35,84; W73: dakbalken +3) heet A-D en ligt aan de andere kant.",
+  "cijferassen in het model": "vier dwarslijnen op dwarscoördinaat -8,0 / -19,26 / -28,86 / -40,5. De twee buitenste dragen de gevelkolommen (84 en 94 stuks), de twee binnenste elk acht ovale kolommen op de letters C t.e.m. J — precies de acht die W5 voor as 2 en voor as 3 opsomt.",
+  "nog te bepalen": "in welke richting de cijfers lopen: of de binnenste dwarslijn op -19,26 as 2 is dan wel as 3. Daardoor liggen de kolomtypes van W5 vast voor de letters C, D en I (zelfde type op beide assen) en nog niet voor E, F, G, H en J.",
+  "controle": "de acht ovale kolommen per rij staan 7 × 8,80 = 61,6 m uit elkaar; gemeten 61,1 m. Hun letters C t.e.m. J volgen rechtstreeks uit de plaats van as A."
+ },
+ "vloerUitWapeningsplan": {
+  "plaat boven +1, as 1-4 H-L": {
+   "bron": "W57 (2008)",
+   "peil": "bovenkant plaat +28,17 (het bouwkundige plan van 2010 geeft +28,31 als afgewerkte vloer; het verschil van 14 cm is de vloeropbouw)",
+   "systeem": "cassettevloer: ribben met vierkante cassettes (types R1, R2 en R5) tussen de balken",
+   "basiswapening": "gepuntlast net 150/150/10/10; plaatselijk 150/150/6/6",
+   "staven": "S228: 4 Ø10 × 9400 zijkant; S229: 4 Ø10 × 9400 zijkant; S230: 24 Ø6 × 1000 alle 100 mm; S231: 12 Ø6 × 1000 alle 150 mm; S235: 205×2 Ø16 × 3000 boven in de ribben; S236: 6×2 Ø16 × 3000 boven in de ribben",
+   "nota": "De bekistingsplannen tonen voor dit niveau voorgespannen welfsels met druklaag; het wapeningsplan toont voor de zone H-L een cassettevloer. Het vloersysteem verschilt dus per zone."
+  }
+ },
+ "wapeningBladen": {
+  "W1": "wapening funderingsplaat (1/100)",
+  "W2": "wapening paalkoppen (1/20)",
+  "W3": "wapening paalkoppen en wachtstaven wanden ter plaatse van de liftkokers (1/50-1/20)",
+  "W4": "wachtstaven wanden W1 t.e.m. W7 en circulatiekern as D (1/200-1/50-1/20)",
+  "W5": "wapening kolommen niveau -2 (1/20) — overgenomen in dit model",
+  "W6": "wand W1A, niveau -2 en -1",
+  "W7": "wand W1B, niveau -2 en -1",
+  "W8": "wand W1C, niveau -2 en -1",
+  "W9": "wand W2A, niveau -2",
+  "W10": "wand W2B/C, niveau -2 en -1",
+  "W11": "wand W3, niveau -2 en -1",
+  "W12": "wand W4 en W4A/B, niveau -2",
+  "W13": "wanden kern A en B, niveau -2",
+  "W14": "wapening plaat boven -2, deel 1 as 1-4, A-D (1/50)",
+  "W15": "wapening plaat boven -2, deel 2 as 1-4, D-H (1/50)",
+  "W16": "wapening plaat boven -2, deel 3 as 1-4, H-L (1/50)",
+  "W17": "technische koker ter plaatse van as 4: wanden W5, W6, W7 + dakplaat (1/50)",
+  "W18": "wanden kern as C en D, niveau -2 (1/50-1/100)",
+  "W19": "trap ter plaatse van assen A-B/1-3 (1/50)",
+  "W20": "plaat boven -2 (1/20)",
+  "W21": "balken boven verdieping -2 (deel 1), as 3: balken 3,A-D / 3,D-H / 3,D-K / 3,K-L",
+  "W22": "balken boven verdieping -2 (deel 2), as 3: balken 2,A-D / 2,D-H / 2,H-L",
+  "W23": "balken boven verdieping -2 (deel 3), assen A t.e.m. F — overgenomen in dit model (as C en as D)",
+  "W24": "balken boven verdieping -2 (deel 4), assen G t.e.m. K: balken G,1-4 / H,1-4 / I,1-4 / J,1-4 / K,1-2",
+  "W25": "balken boven verdieping -2 (deel 5), assen 4, B, C en K",
+  "W26": "wanden technisch verdiep 90: WT3, WT5 t.e.m. WT15",
+  "W27": "bijlegwapening knopen A-J/2-3",
+  "W28": "wanden technisch verdiep 90: WT16 t.e.m. WT21 en WT23",
+  "W29": "wapening keermuur (1/25)",
+  "W30 en W30bis": "technische koker deel 2, bijkomende wapening in functie van de verhoging van de wanden",
+  "W31": "wanden technisch verdiep 90: WT26 t.e.m. WT30",
+  "W32": "balken boven verdieping -1 (deel 1): balken 3,H-L / 4,H-L",
+  "W33": "balken boven verdieping -1 (deel 1): balken 1,H-L / 2,H-L",
+  "W34": "balken boven verdieping -1 (deel 1): balken I,1-4 / J,1-4 / K,1-4 / K’,2-3",
+  "W35": "balken boven verdieping -1 (deel 3): balken 4,A-D / 3,A-D / 2,B-D / 1,B-D",
+  "W36": "balken boven verdieping -1 (deel 3): balken A,3-4 / B,1-4 / C,1-4",
+  "W37": "wapening plaat boven -1, deel 3 as 1-4, H-L (1/50)",
+  "W38": "wapeningsplan (1/50 - 1/20)",
+  "W39": "wapening plaat boven -1, deel 1 as 1-4, A-D (1/50)",
+  "W40": "balken boven verdieping -1 (deel 2): balken 1,D-H / 2,D-E / 2,F-H / 3,D-E / 4,D-H",
+  "W41": "balken boven verdieping -1 (deel 2): balken D,1-2 / E,1-4 / F,1-2 / G,1-3 / H,1-3",
+  "W42": "wanden technisch verdiep 90: WT31 t.e.m. WT42",
+  "W43": "wapening plaat boven -1: schuine plaat foyer",
+  "W44": "wapening plaat boven -1, deel 2 as 1-4, D-H",
+  "W45": "balken boven verdieping -1: knooppuntwapening en principeplaatjes",
+  "W46": "wapening bodemplaat auditorium, wanden W55, W56 en W57, en het trapje naar het auditorium",
+  "W47": "wanden W22, W49, W50, W51, W52 en W53",
+  "W48": "wanden W43, W44, W45, W46, W47 en W48",
+  "W49": "wand auditorium as 1",
+  "W50": "wand auditorium as 4",
+  "W51": "wand auditorium W41 as D",
+  "W52": "wand auditorium W42 as H",
+  "W53": "wapening wandje onder de trap van de foyer",
+  "W54": "wapening vervalput ter plaatse van as L-4",
+  "W55": "balken verdieping +1: B+1 H’,2-3 / I,1-4 / J,1-4 / K,1-3 / K,3’-4 / K’,1-4 / L,1-2 / L,3-4",
+  "W56": "balken verdieping +1: B+1 1,H-L / 2,H-L / 3,H-L / 4,H-L",
+  "W57": "wapening plaat boven +1 (niveau +28,17), deel 3 as 1-4, H-L — cassettevloer",
+  "W58": "wapening plaat boven +1, deel 1 as 1-4, A-D",
+  "W59": "balken verdieping +1: B+1 A,1-4 / A’,2-3 / B,1-2 / B,2-4 / C,1-4 / C’,2-3",
+  "W60": "balken verdieping +1: B+1 1,A-D / 2,A-D / 3,A-D / 4,A-D",
+  "W61": "balken verdieping +2: B+2 A,1-4 / A’,2-3 / B,1-4 / C,1-4 / C’,1-4",
+  "W62": "balken verdieping +2: B+2 1,A-D / 2,A-D / 3,A-D / 4,A-D",
+  "W63": "wapening plaat boven +2, deel 1 as 1-4, A-D (basisnet 150/150/10/10)",
+  "W64": "balken verdieping +2: B+2 H’,1-3 / I,1-4 / J,1-4 / K,1-4 / K’,1-4 / L’,3-4",
+  "W65": "wapening plaat boven +2, deel 3 as 1-4, H-L",
+  "W66": "wand op as L’, van peil +27,28 tot +40,04",
+  "W67": "wanden W39 en W40 (van peil +28,27 tot +22,90) en de wandjes op as 4/C’-D en as 4/H-H’",
+  "W68": "balken verdieping +2: B+2 1,H-L / 2,H-L / 3,H-L / 4,H-L",
+  "W69": "wapening plaat boven +3 (niveau +35,84), deel 1 as 1-4, A-D",
+  "W70": "wapening plaat boven +3 (niveau +35,99), deel 3 as 1-4, H-L",
+  "W71": "balken verdieping +3 (peil +35,99): B+3 H,1-4 / I,1-4 / J,1-4 / K,1-4 / K’,1-4 / L’,1-4",
+  "W72": "balken verdieping +3 (peil +35,99): B+3 1,H-L / 2,H-L / 3,H-L / 4,H-L",
+  "W73": "dakbalken verdieping +3: B+3 1,A-D / 2,A-D / 3,A-D / 4,A-D / A,1-4 / A’,2-3 / A’’,2-3 / C’,2-3 / C’’,2-3",
+  "W74": "technische koker: wapening steunplaat ventilator (1/20)",
+  "W75": "dakbalken verdieping +4 (peil +39,82): B+4 1,H’-L’ t.e.m. 4,H’-L’ en B+4 H’’ / J’ / K’ / K’’",
+  "W76": "wapening plaat boven +4 (niveau +39,72), deel 2 as 1-4, H-L",
+  "W77": "wanden W39’ / W39’A / W39’B / W39’C",
+  "W78": "wanden W40’ / W40’A / W40’B / W40’C",
+  "W79": "kolommen 30×90 cm op de assen 3-H’ en 2-H’, tussen peil +35,99 en +39,72",
+  "W80": "wapening van het bij te storten gedeelte ter plaatse van as A-2, peil +19,00 (1/20)",
+  "W81": "sokkel voor het vertikaal geleidingsprofiel in het auditorium (1/25)",
+  "W82": "opstand in de foyer (1/50-1/25)",
+  "W83": "console voor de ondervanging van de metselwerkwand (1/50)",
+  "W84": "opstand boven de liftkoker op as K (1/20); bijkomende metselwerkopstand naast de liftschacht (2009)"
+ },
+ "peilenUitWapeningsplan": {
+  "plaat boven +1": {
+   "peil": 28.17,
+   "zone": "as 1-4, H-L",
+   "bron": "W57",
+   "model": "niveau 110 staat op +28,31 (afgewerkte vloer uit het plan van 2010); het verschil van 14 cm is de vloeropbouw boven de constructieve plaat"
+  },
+  "plaat boven +3, zone A-D": {
+   "peil": 35.84,
+   "zone": "as 1-4, A-D",
+   "bron": "W69",
+   "model": "de plaat ligt in deze zone 15 cm lager dan in de zone H-L"
+  },
+  "plaat boven +3, zone H-L": {
+   "peil": 35.99,
+   "zone": "as 1-4, H-L",
+   "bron": "W70 en W71/W72 (balken verdieping +3, peil 35.99)",
+   "model": "niveau 130 staat op +36,13; opnieuw 14 cm vloeropbouw boven de constructieve plaat"
+  },
+  "plaat boven +4 (dak)": {
+   "peil": 39.72,
+   "zone": "as 1-4, H-L (deel 2)",
+   "bron": "W76",
+   "model": "de dakbalken staan volgens W75 op peil +39,82; het dak van het model ligt op +40,04"
+  },
+  "dakbalken verdieping +4": {
+   "peil": 39.82,
+   "zone": "H’-L’",
+   "bron": "W75",
+   "model": "dakstructuur"
+  },
+  "bovenkant wand as L’": {
+   "peil": 40.04,
+   "zone": "as L’",
+   "bron": "W66 (wand van +27,28 tot +40,04)",
+   "model": "bevestigt het dakpeil +40,04 dat in dit model gebruikt wordt"
+  },
+  "bij te storten gedeelte as A-2": {
+   "peil": 19.0,
+   "zone": "as A-2",
+   "bron": "W80",
+   "model": "lokale aanpassing, niet gemodelleerd"
+  }
+ },
+ "niveaunummering": "De bekistingsplannen (S) en de wapeningsplannen (W) nummeren de verdiepingen niet gelijk: wat de bekistingsplannen \"plaat boven verdieping 0\" noemen, heet op de wapeningsplannen \"plaat boven +1\" (beide +28,17). De peilen in de titels zijn daarom leidend, niet de nummers.",
+ "gebouw": {
+  "beton": "C30/37",
+  "betonKolommen": "C35/45",
+  "fyk": 500,
+  "milieuklasse": "XC1",
+  "dekking": {
+   "binnen": 30,
+   "buiten": 40,
+   "fundering": 50
+  },
+  "overlapping": "60 x diameter (losse staven), 40 x diameter (netwapening)",
+  "vloer": "welfsels",
+  "bron": "nota op de bekistingsplannen S21 t.e.m. S40 (BE 500S, C30/37 - EE3, kolommen C35/45 - EE2)"
+ },
+ "niveaus": [
+  {
+   "naam": "080 – Kelder — fietsenberging, garage, technieken",
+   "peil": -7.14
+  },
+  {
+   "naam": "090 – Souterrain — foyer, archief, berging",
+   "peil": -3.91
+  },
+  {
+   "naam": "100 – Gelijkvloers — inkom, auditoria",
+   "peil": 0.0
+  },
+  {
+   "naam": "110 – Eerste verdieping — auditoria, bibliotheek",
+   "peil": 5.27
+  },
+  {
+   "naam": "120 – Tweede verdieping — kantoren",
+   "peil": 9.18
+  },
+  {
+   "naam": "130 – Derde verdieping — kantoren",
+   "peil": 13.09
+  }
+ ],
+ "lokalen": [
+  {
+   "nr": "080.005",
+   "functie": "sas",
+   "niveau": "080",
+   "peil": -7.14,
+   "hoogte": 2.28,
+   "opp": 4.84,
+   "midden": [
+    34.26,
+    104.83
+   ]
+  },
+  {
+   "nr": "080.003",
+   "functie": "traphal",
+   "niveau": "080",
+   "peil": -6.97,
+   "hoogte": 2.11,
+   "opp": 12.93,
+   "midden": [
+    25.13,
+    24.81
+   ]
+  },
+  {
+   "nr": "080.004",
+   "functie": "traphal",
+   "niveau": "080",
+   "peil": -7.1,
+   "hoogte": 2.24,
+   "opp": 13.3,
+   "midden": [
+    38.72,
+    103.63
+   ]
+  },
+  {
+   "nr": "080.808",
+   "functie": "leidingen",
+   "niveau": "080",
+   "peil": -6.97,
+   "hoogte": 2.11,
+   "opp": 1.51,
+   "midden": [
+    23.89,
+    23.76
+   ]
+  },
+  {
+   "nr": "080.002",
+   "functie": "sas",
+   "niveau": "080",
+   "peil": -7.14,
+   "hoogte": 2.28,
+   "opp": 5.29,
+   "midden": [
+    30.12,
+    23.68
+   ]
+  },
+  {
+   "nr": "080.007",
+   "functie": "technieken",
+   "niveau": "080",
+   "peil": -7.22,
+   "hoogte": 2.36,
+   "opp": 51.17,
+   "midden": [
+    44.52,
+    34.78
+   ]
+  },
+  {
+   "nr": "080.950",
+   "functie": "liftkoker",
+   "niveau": "080",
+   "peil": -7.14,
+   "hoogte": 2.28,
+   "opp": 3.6,
+   "midden": [
+    31.05,
+    25.49
+   ]
+  },
+  {
+   "nr": "080.010",
+   "functie": "traphal",
+   "niveau": "080",
+   "peil": -7.14,
+   "hoogte": 2.28,
+   "opp": 10.44,
+   "midden": [
+    48.34,
+    85.04
+   ]
+  },
+  {
+   "nr": "080.952",
+   "functie": "liftkoker",
+   "niveau": "080",
+   "peil": -7.14,
+   "hoogte": 2.28,
+   "opp": 3.6,
+   "midden": [
+    33.37,
+    103.04
+   ]
+  },
+  {
+   "nr": "080.954",
+   "functie": "liftkoker",
+   "niveau": "080",
+   "peil": -7.14,
+   "hoogte": 2.28,
+   "opp": 7.19,
+   "midden": [
+    46.77,
+    91.13
+   ]
+  },
+  {
+   "nr": "080.009",
+   "functie": "liftkoker",
+   "niveau": "080",
+   "peil": -7.14,
+   "hoogte": 2.28,
+   "opp": 4.6,
+   "midden": [
+    46.2,
+    93.96
+   ]
+  },
+  {
+   "nr": "080.006",
+   "functie": "fietsenberging",
+   "niveau": "080",
+   "peil": -7.14,
+   "hoogte": 2.28,
+   "opp": 285.07,
+   "midden": [
+    35.25,
+    88.9
+   ]
+  },
+  {
+   "nr": "080.811",
+   "functie": "leidingen",
+   "niveau": "080",
+   "peil": -6.8,
+   "hoogte": 2.0,
+   "opp": 2817.42,
+   "midden": [
+    29.36,
+    41.11
+   ]
+  },
+  {
+   "nr": "090.950",
+   "functie": "liftkoker",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 3.6,
+   "midden": [
+    31.05,
+    25.49
+   ]
+  },
+  {
+   "nr": "090.900",
+   "functie": "buitentrap",
+   "niveau": "090",
+   "peil": -3.81,
+   "hoogte": 2.78,
+   "opp": 13.65,
+   "midden": [
+    26.21,
+    16.27
+   ]
+  },
+  {
+   "nr": "090.033",
+   "functie": "technieken",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 3.68,
+   "midden": [
+    32.98,
+    24.8
+   ]
+  },
+  {
+   "nr": "090.015",
+   "functie": "archief",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 136.84,
+   "midden": [
+    19.78,
+    41.59
+   ]
+  },
+  {
+   "nr": "090.001",
+   "functie": "elektriciteit",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 33.93,
+   "midden": [
+    39.58,
+    19.18
+   ]
+  },
+  {
+   "nr": "090.030",
+   "functie": "technieken",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 3.22,
+   "midden": [
+    31.45,
+    103.73
+   ]
+  },
+  {
+   "nr": "090.032",
+   "functie": "technieken",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 3.64,
+   "midden": [
+    48.72,
+    101.52
+   ]
+  },
+  {
+   "nr": "090.016",
+   "functie": "foyer",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 264.43,
+   "midden": [
+    40.47,
+    56.84
+   ]
+  },
+  {
+   "nr": "090.020",
+   "functie": "archief",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 585.12,
+   "midden": [
+    21.85,
+    73.46
+   ]
+  },
+  {
+   "nr": "090.952",
+   "functie": "liftkoker",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 3.6,
+   "midden": [
+    33.37,
+    103.04
+   ]
+  },
+  {
+   "nr": "090.034",
+   "functie": "doorgang",
+   "niveau": "090",
+   "peil": -3.81,
+   "hoogte": 2.78,
+   "opp": 12.93,
+   "midden": [
+    33.44,
+    15.39
+   ]
+  },
+  {
+   "nr": "090.006",
+   "functie": "sanitair",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 11.03,
+   "midden": [
+    37.86,
+    24.1
+   ]
+  },
+  {
+   "nr": "090.013",
+   "functie": "sanitair",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 58.65,
+   "midden": [
+    34.76,
+    43.95
+   ]
+  },
+  {
+   "nr": "090.002",
+   "functie": "technieken",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 6.41,
+   "midden": [
+    36.46,
+    18.54
+   ]
+  },
+  {
+   "nr": "090.025",
+   "functie": "sanitair",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 1.18,
+   "midden": [
+    47.6,
+    102.7
+   ]
+  },
+  {
+   "nr": "090.029",
+   "functie": "inkom",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 18.96,
+   "midden": [
+    25.29,
+    104.45
+   ]
+  },
+  {
+   "nr": "090.007",
+   "functie": "traphal",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 4.97,
+   "midden": [
+    27.64,
+    24.5
+   ]
+  },
+  {
+   "nr": "090.035",
+   "functie": "doorgang",
+   "niveau": "090",
+   "peil": -3.81,
+   "hoogte": 2.78,
+   "opp": 8.09,
+   "midden": [
+    39.22,
+    14.68
+   ]
+  },
+  {
+   "nr": "090.005",
+   "functie": "gang",
+   "niveau": "090",
+   "peil": -3.81,
+   "hoogte": 2.78,
+   "opp": 19.37,
+   "midden": [
+    31.35,
+    22.46
+   ]
+  },
+  {
+   "nr": "090.016A",
+   "functie": "onthaal",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 22.17,
+   "midden": [
+    28.0,
+    71.2
+   ]
+  },
+  {
+   "nr": "090.012",
+   "functie": "sanitair",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 58.96,
+   "midden": [
+    33.39,
+    39.93
+   ]
+  },
+  {
+   "nr": "090.003",
+   "functie": "sas",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 12.59,
+   "midden": [
+    34.2,
+    18.82
+   ]
+  },
+  {
+   "nr": "090.024",
+   "functie": "sanitair",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 9.99,
+   "midden": [
+    45.49,
+    102.7
+   ]
+  },
+  {
+   "nr": "090.021",
+   "functie": "traphal",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 61.52,
+   "midden": [
+    45.4,
+    87.05
+   ]
+  },
+  {
+   "nr": "090.807",
+   "functie": "leidingen",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 61.56,
+   "midden": [
+    46.79,
+    108.24
+   ]
+  },
+  {
+   "nr": "090.026",
+   "functie": "inkom",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 78.77,
+   "midden": [
+    37.67,
+    108.51
+   ]
+  },
+  {
+   "nr": "090.017",
+   "functie": "vergaderzaal",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 90.2,
+   "midden": [
+    43.06,
+    69.85
+   ]
+  },
+  {
+   "nr": "090.011",
+   "functie": "berging",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 36.76,
+   "midden": [
+    31.92,
+    35.87
+   ]
+  },
+  {
+   "nr": "090.011A",
+   "functie": "sas",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 6.73,
+   "midden": [
+    39.42,
+    35.52
+   ]
+  },
+  {
+   "nr": "090.004",
+   "functie": "technieken",
+   "niveau": "090",
+   "peil": -3.81,
+   "hoogte": 2.78,
+   "opp": 36.39,
+   "midden": [
+    28.69,
+    19.5
+   ]
+  },
+  {
+   "nr": "090.027",
+   "functie": "traphal",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 22.83,
+   "midden": [
+    40.5,
+    102.38
+   ]
+  },
+  {
+   "nr": "090.954",
+   "functie": "liftkoker",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 6.74,
+   "midden": [
+    46.67,
+    91.14
+   ]
+  },
+  {
+   "nr": "090.018",
+   "functie": "vergaderzaal",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 217.64,
+   "midden": [
+    38.49,
+    78.76
+   ]
+  },
+  {
+   "nr": "090.028",
+   "functie": "projectlokaal",
+   "niveau": "090",
+   "peil": -3.4,
+   "hoogte": 2.37,
+   "opp": 198.06,
+   "midden": [
+    25.57,
+    92.25
+   ]
+  },
+  {
+   "nr": "090.019",
+   "functie": "sas",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 2.17,
+   "midden": [
+    26.41,
+    75.21
+   ]
+  },
+  {
+   "nr": "090.011B",
+   "functie": "EHBO-lokaal",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 7.05,
+   "midden": [
+    37.4,
+    33.96
+   ]
+  },
+  {
+   "nr": "090.010",
+   "functie": "productiekeuken",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 69.28,
+   "midden": [
+    32.47,
+    31.83
+   ]
+  },
+  {
+   "nr": "090.009",
+   "functie": "technieken",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 216.42,
+   "midden": [
+    18.28,
+    29.37
+   ]
+  },
+  {
+   "nr": "090.022",
+   "functie": "onthaal",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 98.33,
+   "midden": [
+    46.45,
+    96.61
+   ]
+  },
+  {
+   "nr": "090.031",
+   "functie": "traphal",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 4.74,
+   "midden": [
+    35.45,
+    103.96
+   ]
+  },
+  {
+   "nr": "090.023A",
+   "functie": "voorbereidingslokaal",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 9.86,
+   "midden": [
+    51.76,
+    108.14
+   ]
+  },
+  {
+   "nr": "090.014",
+   "functie": "berging",
+   "niveau": "090",
+   "peil": -3.91,
+   "hoogte": 2.88,
+   "opp": 42.75,
+   "midden": [
+    34.64,
+    47.87
+   ]
+  },
+  {
+   "nr": "100.005",
+   "functie": "groepslokaal",
+   "niveau": "100",
+   "peil": 0.0,
+   "hoogte": 4.38,
+   "opp": 1839.33,
+   "midden": [
+    25.93,
+    65.98
+   ]
+  },
+  {
+   "nr": "100.011A",
+   "functie": "vergaderzaal",
+   "niveau": "100",
+   "peil": 0.0,
+   "hoogte": 4.38,
+   "opp": 6.38,
+   "midden": [
+    27.21,
+    95.7
+   ]
+  },
+  {
+   "nr": "100.003",
+   "functie": "sas",
+   "niveau": "100",
+   "peil": 0.0,
+   "hoogte": 4.38,
+   "opp": 12.77,
+   "midden": [
+    42.97,
+    46.43
+   ]
+  },
+  {
+   "nr": "100.004",
+   "functie": "traphal",
+   "niveau": "100",
+   "peil": 0.0,
+   "hoogte": 4.38,
+   "opp": 26.85,
+   "midden": [
+    36.91,
+    47.1
+   ]
+  },
+  {
+   "nr": "100.008",
+   "functie": "traphal",
+   "niveau": "100",
+   "peil": 0.0,
+   "hoogte": 4.38,
+   "opp": 25.82,
+   "midden": [
+    41.63,
+    85.38
+   ]
+  },
+  {
+   "nr": "100.952",
+   "functie": "liftkoker",
+   "niveau": "100",
+   "peil": 0.0,
+   "hoogte": 4.38,
+   "opp": 3.6,
+   "midden": [
+    33.5,
+    102.53
+   ]
+  },
+  {
+   "nr": "100.006",
+   "functie": "traphal",
+   "niveau": "100",
+   "peil": 0.0,
+   "hoogte": 4.38,
+   "opp": 17.63,
+   "midden": [
+    26.78,
+    71.62
+   ]
+  },
+  {
+   "nr": "100.010",
+   "functie": "inkom",
+   "niveau": "100",
+   "peil": 0.0,
+   "hoogte": 4.38,
+   "opp": 18.19,
+   "midden": [
+    40.46,
+    107.53
+   ]
+  },
+  {
+   "nr": "100.009",
+   "functie": "traphal",
+   "niveau": "100",
+   "peil": 0.0,
+   "hoogte": 4.38,
+   "opp": 20.2,
+   "midden": [
+    37.92,
+    102.61
+   ]
+  },
+  {
+   "nr": "100.953",
+   "functie": "liftkoker",
+   "niveau": "100",
+   "peil": 0.0,
+   "hoogte": 4.38,
+   "opp": 3.6,
+   "midden": [
+    29.73,
+    102.99
+   ]
+  },
+  {
+   "nr": "100.007",
+   "functie": "sas",
+   "niveau": "100",
+   "peil": 0.22,
+   "hoogte": 4.16,
+   "opp": 12.43,
+   "midden": [
+    47.67,
+    84.58
+   ]
+  },
+  {
+   "nr": "100.001",
+   "functie": "inkom",
+   "niveau": "100",
+   "peil": 0.0,
+   "hoogte": 4.38,
+   "opp": 113.83,
+   "midden": [
+    17.73,
+    24.11
+   ]
+  },
+  {
+   "nr": "100.950",
+   "functie": "liftkoker",
+   "niveau": "100",
+   "peil": 0.0,
+   "hoogte": 4.38,
+   "opp": 3.6,
+   "midden": [
+    31.2,
+    24.98
+   ]
+  },
+  {
+   "nr": "100.002",
+   "functie": "traphal",
+   "niveau": "100",
+   "peil": 0.0,
+   "hoogte": 4.38,
+   "opp": 20.53,
+   "midden": [
+    26.73,
+    24.98
+   ]
+  },
+  {
+   "nr": "100.951",
+   "functie": "liftkoker",
+   "niveau": "100",
+   "peil": 0.0,
+   "hoogte": 4.38,
+   "opp": 3.6,
+   "midden": [
+    34.96,
+    24.52
+   ]
+  },
+  {
+   "nr": "110.005",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 17.97,
+   "midden": [
+    42.48,
+    43.08
+   ]
+  },
+  {
+   "nr": "110.043",
+   "functie": "berging",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 1.05,
+   "midden": [
+    43.38,
+    100.82
+   ]
+  },
+  {
+   "nr": "110.045",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 11.77,
+   "midden": [
+    49.98,
+    103.92
+   ]
+  },
+  {
+   "nr": "110.019",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 11.77,
+   "midden": [
+    22.52,
+    39.56
+   ]
+  },
+  {
+   "nr": "110.800",
+   "functie": "leidingen",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 1.04,
+   "midden": [
+    36.13,
+    24.36
+   ]
+  },
+  {
+   "nr": "110.011",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 30.19,
+   "midden": [
+    40.06,
+    23.45
+   ]
+  },
+  {
+   "nr": "110.039",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 11.77,
+   "midden": [
+    42.71,
+    95.52
+   ]
+  },
+  {
+   "nr": "110.030",
+   "functie": "gang",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 83.41,
+   "midden": [
+    28.0,
+    88.2
+   ]
+  },
+  {
+   "nr": "110.027",
+   "functie": "terras",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 151.82,
+   "midden": [
+    28.58,
+    34.8
+   ]
+  },
+  {
+   "nr": "110.014",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 17.99,
+   "midden": [
+    14.52,
+    25.26
+   ]
+  },
+  {
+   "nr": "110.006",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 11.78,
+   "midden": [
+    42.07,
+    39.81
+   ]
+  },
+  {
+   "nr": "110.044",
+   "functie": "sanitair",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 7.18,
+   "midden": [
+    42.02,
+    102.11
+   ]
+  },
+  {
+   "nr": "110.046",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 11.77,
+   "midden": [
+    49.66,
+    101.3
+   ]
+  },
+  {
+   "nr": "110.050",
+   "functie": "leidingen",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 3.34,
+   "midden": [
+    32.97,
+    24.75
+   ]
+  },
+  {
+   "nr": "110.020",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 11.77,
+   "midden": [
+    22.2,
+    36.94
+   ]
+  },
+  {
+   "nr": "110.012",
+   "functie": "kantoorlandschap",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 84.53,
+   "midden": [
+    36.1,
+    16.62
+   ]
+  },
+  {
+   "nr": "110.040",
+   "functie": "verbruikslokaal",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 11.77,
+   "midden": [
+    43.03,
+    98.13
+   ]
+  },
+  {
+   "nr": "110.028",
+   "functie": "gang",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 93.81,
+   "midden": [
+    27.29,
+    48.08
+   ]
+  },
+  {
+   "nr": "110.015",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 42.39,
+   "midden": [
+    15.33,
+    31.81
+   ]
+  },
+  {
+   "nr": "110.007",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 11.78,
+   "midden": [
+    41.75,
+    37.19
+   ]
+  },
+  {
+   "nr": "110.031",
+   "functie": "terras",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 97.52,
+   "midden": [
+    36.25,
+    97.0
+   ]
+  },
+  {
+   "nr": "110.047",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 11.77,
+   "midden": [
+    49.34,
+    98.68
+   ]
+  },
+  {
+   "nr": "110.021",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 11.77,
+   "midden": [
+    21.88,
+    34.33
+   ]
+  },
+  {
+   "nr": "110.023",
+   "functie": "sanitair",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 2.57,
+   "midden": [
+    19.26,
+    25.52
+   ]
+  },
+  {
+   "nr": "110.805",
+   "functie": "leidingen",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 1.04,
+   "midden": [
+    28.3,
+    104.17
+   ]
+  },
+  {
+   "nr": "110.002",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 36.23,
+   "midden": [
+    34.64,
+    30.1
+   ]
+  },
+  {
+   "nr": "110.041",
+   "functie": "sanitair",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 2.56,
+   "midden": [
+    45.16,
+    103.02
+   ]
+  },
+  {
+   "nr": "110.034",
+   "functie": "bibliotheek",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 112.83,
+   "midden": [
+    33.7,
+    109.86
+   ]
+  },
+  {
+   "nr": "110.016",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 42.39,
+   "midden": [
+    16.46,
+    40.97
+   ]
+  },
+  {
+   "nr": "110.008",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 11.78,
+   "midden": [
+    41.43,
+    34.57
+   ]
+  },
+  {
+   "nr": "110.033",
+   "functie": "gang",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 78.69,
+   "midden": [
+    45.77,
+    95.08
+   ]
+  },
+  {
+   "nr": "110.048",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 11.77,
+   "midden": [
+    49.01,
+    96.07
+   ]
+  },
+  {
+   "nr": "110.022",
+   "functie": "verbruikslokaal",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 17.88,
+   "midden": [
+    21.48,
+    31.06
+   ]
+  },
+  {
+   "nr": "110.024",
+   "functie": "sanitair",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 4.14,
+   "midden": [
+    19.54,
+    27.74
+   ]
+  },
+  {
+   "nr": "110.051",
+   "functie": "leidingen",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 3.33,
+   "midden": [
+    31.45,
+    103.78
+   ]
+  },
+  {
+   "nr": "110.003",
+   "functie": "vergaderzaal",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 42.02,
+   "midden": [
+    35.68,
+    38.57
+   ]
+  },
+  {
+   "nr": "110.036",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 11.84,
+   "midden": [
+    48.04,
+    88.21
+   ]
+  },
+  {
+   "nr": "110.042",
+   "functie": "sanitair",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 4.14,
+   "midden": [
+    44.89,
+    100.79
+   ]
+  },
+  {
+   "nr": "110.049",
+   "functie": "auditorium",
+   "niveau": "110",
+   "peil": 0.72,
+   "hoogte": 7.46,
+   "opp": 605.25,
+   "midden": [
+    33.5,
+    73.69
+   ]
+  },
+  {
+   "nr": "110.017",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 11.85,
+   "midden": [
+    17.19,
+    46.87
+   ]
+  },
+  {
+   "nr": "110.037",
+   "functie": "berging",
+   "niveau": "110",
+   "peil": 0.22,
+   "hoogte": 7.96,
+   "opp": 33.93,
+   "midden": [
+    44.69,
+    85.55
+   ]
+  },
+  {
+   "nr": "110.009",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 17.9,
+   "midden": [
+    41.02,
+    31.3
+   ]
+  },
+  {
+   "nr": "110.035",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 41.17,
+   "midden": [
+    48.73,
+    108.01
+   ]
+  },
+  {
+   "nr": "110.001",
+   "functie": "gang",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 130.19,
+   "midden": [
+    18.85,
+    35.07
+   ]
+  },
+  {
+   "nr": "110.025",
+   "functie": "berging",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 1.41,
+   "midden": [
+    21.07,
+    27.84
+   ]
+  },
+  {
+   "nr": "110.950",
+   "functie": "liftkoker",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 3.6,
+   "midden": [
+    34.82,
+    25.03
+   ]
+  },
+  {
+   "nr": "110.004",
+   "functie": "berging",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 35.03,
+   "midden": [
+    39.95,
+    47.19
+   ]
+  },
+  {
+   "nr": "110.036A",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 24.0,
+   "midden": [
+    48.53,
+    92.14
+   ]
+  },
+  {
+   "nr": "110.803",
+   "functie": "leidingen",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 1.05,
+   "midden": [
+    43.27,
+    99.92
+   ]
+  },
+  {
+   "nr": "110.029",
+   "functie": "auditorium",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 369.05,
+   "midden": [
+    31.48,
+    57.27
+   ]
+  },
+  {
+   "nr": "110.018",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 17.55,
+   "midden": [
+    22.92,
+    42.8
+   ]
+  },
+  {
+   "nr": "110.951",
+   "functie": "liftkoker",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 3.6,
+   "midden": [
+    29.61,
+    103.5
+   ]
+  },
+  {
+   "nr": "110.010",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 11.78,
+   "midden": [
+    40.62,
+    28.03
+   ]
+  },
+  {
+   "nr": "110.038",
+   "functie": "kantoor",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 23.73,
+   "midden": [
+    42.23,
+    91.62
+   ]
+  },
+  {
+   "nr": "110.026",
+   "functie": "sanitair",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 7.18,
+   "midden": [
+    22.41,
+    26.42
+   ]
+  },
+  {
+   "nr": "110.013",
+   "functie": "leslokaal",
+   "niveau": "110",
+   "peil": 5.27,
+   "hoogte": 2.91,
+   "opp": 84.54,
+   "midden": [
+    16.87,
+    18.99
+   ]
+  },
+  {
+   "nr": "120.020",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 35.9,
+   "midden": [
+    22.68,
+    40.83
+   ]
+  },
+  {
+   "nr": "120.034",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 29.84,
+   "midden": [
+    29.23,
+    93.89
+   ]
+  },
+  {
+   "nr": "120.004",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 29.78,
+   "midden": [
+    35.84,
+    39.87
+   ]
+  },
+  {
+   "nr": "120.054",
+   "functie": "leidingen",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 3.34,
+   "midden": [
+    32.97,
+    24.75
+   ]
+  },
+  {
+   "nr": "120.048",
+   "functie": "pauzelokaal",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 35.96,
+   "midden": [
+    42.39,
+    92.93
+   ]
+  },
+  {
+   "nr": "120.001",
+   "functie": "gang",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 130.85,
+   "midden": [
+    18.85,
+    35.07
+   ]
+  },
+  {
+   "nr": "120.053",
+   "functie": "sanitair",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 7.18,
+   "midden": [
+    42.02,
+    102.11
+   ]
+  },
+  {
+   "nr": "120.015",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 11.77,
+   "midden": [
+    15.09,
+    29.85
+   ]
+  },
+  {
+   "nr": "120.031",
+   "functie": "gang",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 108.66,
+   "midden": [
+    45.9,
+    96.08
+   ]
+  },
+  {
+   "nr": "120.007",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 11.77,
+   "midden": [
+    41.43,
+    34.57
+   ]
+  },
+  {
+   "nr": "120.041",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 48.72,
+   "midden": [
+    39.84,
+    109.1
+   ]
+  },
+  {
+   "nr": "120.042",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 41.19,
+   "midden": [
+    48.74,
+    108.01
+   ]
+  },
+  {
+   "nr": "120.047A",
+   "functie": "technieken",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 10.38,
+   "midden": [
+    48.4,
+    85.04
+   ]
+  },
+  {
+   "nr": "120.021",
+   "functie": "pauzelokaal",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 36.23,
+   "midden": [
+    21.72,
+    33.02
+   ]
+  },
+  {
+   "nr": "120.038",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 24.02,
+   "midden": [
+    24.45,
+    105.74
+   ]
+  },
+  {
+   "nr": "120.055",
+   "functie": "leidingen",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 3.33,
+   "midden": [
+    31.45,
+    103.78
+   ]
+  },
+  {
+   "nr": "120.003",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 11.77,
+   "midden": [
+    35.28,
+    35.33
+   ]
+  },
+  {
+   "nr": "120.049",
+   "functie": "verbruikslokaal",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 11.77,
+   "midden": [
+    43.03,
+    98.13
+   ]
+  },
+  {
+   "nr": "120.016",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 11.77,
+   "midden": [
+    15.41,
+    32.47
+   ]
+  },
+  {
+   "nr": "120.008",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 11.77,
+   "midden": [
+    41.1,
+    31.95
+   ]
+  },
+  {
+   "nr": "120.040",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 20.59,
+   "midden": [
+    32.96,
+    109.95
+   ]
+  },
+  {
+   "nr": "120.043",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 17.9,
+   "midden": [
+    49.9,
+    103.26
+   ]
+  },
+  {
+   "nr": "120.026",
+   "functie": "sanitair",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 7.18,
+   "midden": [
+    22.41,
+    26.42
+   ]
+  },
+  {
+   "nr": "120.037",
+   "functie": "overlegplek",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 11.78,
+   "midden": [
+    23.97,
+    101.81
+   ]
+  },
+  {
+   "nr": "120.002",
+   "functie": "groepslokaal",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 36.23,
+   "midden": [
+    34.64,
+    30.1
+   ]
+  },
+  {
+   "nr": "120.804",
+   "functie": "leidingen",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 1.04,
+   "midden": [
+    32.7,
+    104.31
+   ]
+  },
+  {
+   "nr": "120.050",
+   "functie": "sanitair",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 2.57,
+   "midden": [
+    45.16,
+    103.02
+   ]
+  },
+  {
+   "nr": "120.017",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 11.77,
+   "midden": [
+    15.74,
+    35.08
+   ]
+  },
+  {
+   "nr": "120.009",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 11.77,
+   "midden": [
+    40.78,
+    29.34
+   ]
+  },
+  {
+   "nr": "120.039",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 41.19,
+   "midden": [
+    26.82,
+    110.71
+   ]
+  },
+  {
+   "nr": "120.044",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 11.78,
+   "midden": [
+    49.5,
+    99.99
+   ]
+  },
+  {
+   "nr": "120.025",
+   "functie": "berging",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 1.41,
+   "midden": [
+    21.07,
+    27.84
+   ]
+  },
+  {
+   "nr": "120.036",
+   "functie": "overlegplek",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 11.78,
+   "midden": [
+    23.64,
+    99.2
+   ]
+  },
+  {
+   "nr": "120.012",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 84.62,
+   "midden": [
+    16.87,
+    18.98
+   ]
+  },
+  {
+   "nr": "120.051",
+   "functie": "sanitair",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 4.14,
+   "midden": [
+    44.89,
+    100.79
+   ]
+  },
+  {
+   "nr": "120.805",
+   "functie": "leidingen",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 1.04,
+   "midden": [
+    28.3,
+    104.17
+   ]
+  },
+  {
+   "nr": "120.027",
+   "functie": "gang",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 33.81,
+   "midden": [
+    29.89,
+    45.33
+   ]
+  },
+  {
+   "nr": "120.018",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 11.77,
+   "midden": [
+    16.06,
+    37.7
+   ]
+  },
+  {
+   "nr": "120.032",
+   "functie": "overlegplek",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 11.77,
+   "midden": [
+    30.11,
+    101.06
+   ]
+  },
+  {
+   "nr": "120.010",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 36.23,
+   "midden": [
+    40.13,
+    24.1
+   ]
+  },
+  {
+   "nr": "120.030",
+   "functie": "technieken",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 39.94,
+   "midden": [
+    36.69,
+    86.48
+   ]
+  },
+  {
+   "nr": "120.045",
+   "functie": "vergaderzaal",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 17.9,
+   "midden": [
+    49.1,
+    96.72
+   ]
+  },
+  {
+   "nr": "120.024",
+   "functie": "sanitair",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 4.14,
+   "midden": [
+    19.54,
+    27.74
+   ]
+  },
+  {
+   "nr": "120.035",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 36.33,
+   "midden": [
+    23.0,
+    93.96
+   ]
+  },
+  {
+   "nr": "120.013",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 11.85,
+   "midden": [
+    14.44,
+    24.61
+   ]
+  },
+  {
+   "nr": "120.005",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 30.19,
+   "midden": [
+    42.31,
+    41.78
+   ]
+  },
+  {
+   "nr": "120.803",
+   "functie": "leidingen",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 1.05,
+   "midden": [
+    43.27,
+    99.92
+   ]
+  },
+  {
+   "nr": "120.950",
+   "functie": "liftkoker",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 3.6,
+   "midden": [
+    34.82,
+    25.03
+   ]
+  },
+  {
+   "nr": "120.028",
+   "functie": "technieken",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 58.93,
+   "midden": [
+    35.08,
+    47.82
+   ]
+  },
+  {
+   "nr": "120.019",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 42.42,
+   "midden": [
+    16.79,
+    43.6
+   ]
+  },
+  {
+   "nr": "120.033",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 11.77,
+   "midden": [
+    29.79,
+    98.44
+   ]
+  },
+  {
+   "nr": "120.011",
+   "functie": "landschapskantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 84.62,
+   "midden": [
+    36.09,
+    16.61
+   ]
+  },
+  {
+   "nr": "120.800",
+   "functie": "leidingen",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 1.04,
+   "midden": [
+    36.13,
+    24.36
+   ]
+  },
+  {
+   "nr": "120.046",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 36.33,
+   "midden": [
+    48.37,
+    90.83
+   ]
+  },
+  {
+   "nr": "120.023",
+   "functie": "sanitair",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 2.57,
+   "midden": [
+    19.26,
+    25.52
+   ]
+  },
+  {
+   "nr": "120.029",
+   "functie": "gang",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 25.48,
+   "midden": [
+    34.71,
+    89.74
+   ]
+  },
+  {
+   "nr": "120.014",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 11.77,
+   "midden": [
+    14.77,
+    27.23
+   ]
+  },
+  {
+   "nr": "120.951",
+   "functie": "liftkoker",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 3.6,
+   "midden": [
+    29.61,
+    103.5
+   ]
+  },
+  {
+   "nr": "120.006",
+   "functie": "kantoor",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 11.77,
+   "midden": [
+    41.75,
+    37.19
+   ]
+  },
+  {
+   "nr": "120.047",
+   "functie": "kopieerlokaal",
+   "niveau": "120",
+   "peil": 9.18,
+   "hoogte": 2.83,
+   "opp": 7.74,
+   "midden": [
+    45.37,
+    85.42
+   ]
+  },
+  {
+   "nr": "130.019",
+   "functie": "kantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 11.77,
+   "midden": [
+    16.06,
+    37.7
+   ]
+  },
+  {
+   "nr": "130.031",
+   "functie": "leidingen",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 3.34,
+   "midden": [
+    32.97,
+    24.75
+   ]
+  },
+  {
+   "nr": "130.006",
+   "functie": "kantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 35.66,
+   "midden": [
+    42.23,
+    41.05
+   ]
+  },
+  {
+   "nr": "130.016",
+   "functie": "kantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 11.77,
+   "midden": [
+    15.09,
+    29.85
+   ]
+  },
+  {
+   "nr": "130.024",
+   "functie": "vergaderzaal",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 24.0,
+   "midden": [
+    21.88,
+    34.33
+   ]
+  },
+  {
+   "nr": "130.013",
+   "functie": "landschapskantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 84.62,
+   "midden": [
+    16.87,
+    18.98
+   ]
+  },
+  {
+   "nr": "130.009",
+   "functie": "kantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 11.77,
+   "midden": [
+    40.46,
+    26.72
+   ]
+  },
+  {
+   "nr": "130.028",
+   "functie": "berging",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 1.39,
+   "midden": [
+    21.07,
+    27.84
+   ]
+  },
+  {
+   "nr": "130.012",
+   "functie": "landschapskantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 84.62,
+   "midden": [
+    36.09,
+    16.61
+   ]
+  },
+  {
+   "nr": "130.021",
+   "functie": "kantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 17.31,
+   "midden": [
+    17.1,
+    46.14
+   ]
+  },
+  {
+   "nr": "130.003",
+   "functie": "kantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 11.77,
+   "midden": [
+    34.64,
+    30.1
+   ]
+  },
+  {
+   "nr": "130.018",
+   "functie": "kantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 11.77,
+   "midden": [
+    15.74,
+    35.08
+   ]
+  },
+  {
+   "nr": "130.800",
+   "functie": "leidingen",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 1.04,
+   "midden": [
+    36.13,
+    24.36
+   ]
+  },
+  {
+   "nr": "130.015",
+   "functie": "kantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 11.77,
+   "midden": [
+    14.77,
+    27.23
+   ]
+  },
+  {
+   "nr": "130.007",
+   "functie": "kantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 30.11,
+   "midden": [
+    41.35,
+    33.92
+   ]
+  },
+  {
+   "nr": "130.802",
+   "functie": "leidingen",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 11.77,
+   "midden": [
+    21.39,
+    30.4
+   ]
+  },
+  {
+   "nr": "130.030",
+   "functie": "gang",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 22.84,
+   "midden": [
+    29.87,
+    45.26
+   ]
+  },
+  {
+   "nr": "130.010",
+   "functie": "kantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 11.77,
+   "midden": [
+    40.13,
+    24.1
+   ]
+  },
+  {
+   "nr": "130.027",
+   "functie": "sanitair",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 4.14,
+   "midden": [
+    19.54,
+    27.74
+   ]
+  },
+  {
+   "nr": "130.005",
+   "functie": "kantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 35.25,
+   "midden": [
+    35.76,
+    39.15
+   ]
+  },
+  {
+   "nr": "130.020",
+   "functie": "kantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 24.0,
+   "midden": [
+    16.54,
+    41.63
+   ]
+  },
+  {
+   "nr": "130.002",
+   "functie": "kantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 11.77,
+   "midden": [
+    34.32,
+    27.48
+   ]
+  },
+  {
+   "nr": "130.017",
+   "functie": "kantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 11.77,
+   "midden": [
+    15.41,
+    32.47
+   ]
+  },
+  {
+   "nr": "130.022",
+   "functie": "kantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 35.25,
+   "midden": [
+    22.67,
+    40.76
+   ]
+  },
+  {
+   "nr": "130.014",
+   "functie": "kantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 11.86,
+   "midden": [
+    14.44,
+    24.61
+   ]
+  },
+  {
+   "nr": "130.008",
+   "functie": "kantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 11.77,
+   "midden": [
+    40.78,
+    29.34
+   ]
+  },
+  {
+   "nr": "130.029",
+   "functie": "sanitair",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 7.18,
+   "midden": [
+    22.41,
+    26.42
+   ]
+  },
+  {
+   "nr": "130.950",
+   "functie": "liftkoker",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 3.6,
+   "midden": [
+    34.82,
+    25.03
+   ]
+  },
+  {
+   "nr": "130.001",
+   "functie": "gang",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 138.51,
+   "midden": [
+    18.86,
+    35.14
+   ]
+  },
+  {
+   "nr": "130.011",
+   "functie": "kantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 11.77,
+   "midden": [
+    39.81,
+    21.49
+   ]
+  },
+  {
+   "nr": "130.026",
+   "functie": "sanitair",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 2.57,
+   "midden": [
+    19.26,
+    25.52
+   ]
+  },
+  {
+   "nr": "130.004",
+   "functie": "kantoor",
+   "niveau": "130",
+   "peil": 13.09,
+   "hoogte": 2.82,
+   "opp": 17.88,
+   "midden": [
+    35.04,
+    33.37
+   ]
+  }
+ ],
+ "elementen": {
+  "BuildingStorey": 6,
+  "Column": 606,
+  "Door": 473,
+  "ReinforcingBar": 12,
+  "Slab": 34,
+  "Space": 218,
+  "Wall": 306,
+  "Window": 49
+ },
+ "wapeningOntbreekt": [
+  "Van blad W5 zijn de kolommen van niveau -2 exact overgenomen en van blad W23 de balken van as C en as D boven verdieping -2.",
+  "De letterassen A t.e.m. L zijn teruggevonden: twaalf kolomlijnen om de 8,80 m. Welk uiteinde as A is en waar de cijferassen liggen, moet nog vast; zolang dat niet vastligt, hangen de staven nog niet aan individuele elementen.",
+  "De vloeren zijn voorgespannen welfsels: hun wapening ligt bij de fabrikant.",
+  "De stalen kolommen HD 400x651 en HEM 400 hebben geen wapening.",
+  "Voor alles wat nog geen plan heeft, rekent de app volgens de Eurocodes en toont ze als aanname."
+ ],
+ "markers": []
+}

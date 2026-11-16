@@ -1,0 +1,2757 @@
+{
+  "id": "labo-magnel-gebouw",
+  "naam": "Labo Magnel – volledig gebouw",
+  "soort": "gebouw",
+  "status": "aanname",
+  "ifc": "labo-magnel.ifc",
+  "laagstePeil": -14.6,
+  "voetpeil": 4.5,
+  "beschrijving": "Volledig gebouw Labo Magnel voor Betononderzoek: kelder, gelijkvloers, 2 verdiepingen, proefhal (12,50 m). In AR staat peil +4,50 (verdieping 1, VR-lokaal) op je voeten.",
+  "bron": "DXF 60.04.090-140 (2010), scans OA01-OA29 (1969-1990), DWG 6004000A/G (2005)",
+  "peilen": {
+    "Nulpeil": "0,00 = gelijkvloers Blok C (proefhal) = oud peil +9,40 (plannen 1969)",
+    "Maaiveld": "-0,49 (oud +8,91)",
+    "Blok A en B": "vloeren +0,90 / +4,50 / +8,10, dak +11,70, acroterie A +12,50, B +12,10",
+    "Blok C": "vloeren 0,00 (70 cm) / +4,50, dak zijvleugels +8,00/+8,30 rand +9,00, noordzone +9,00/+9,50; proefhal liggers 11,20-12,00, dak 12,00/12,50, rand +12,80",
+    "Kelders": "C -3,50 (proefvloerkuip -2,80); A -2,50 / -1,80; kruipkelder B -0,70",
+    "Bronnen": "DXF 60.04.090-140 (2010); 24 scans OA (1969-1990); 2 DWG (2005); 98 stabiliteitsbladen OB + 3 E-loketplannen (1969-1974)"
+  },
+  "niveaus": [
+    {
+      "naam": "090 – Kelder (kruipkelder, technieken)",
+      "peil": -3.5
+    },
+    {
+      "naam": "100 – Gelijkvloers",
+      "peil": 0.0
+    },
+    {
+      "naam": "110 – Verdieping 1",
+      "peil": 4.5
+    },
+    {
+      "naam": "120 – Verdieping 2",
+      "peil": 8.1
+    },
+    {
+      "naam": "130 – Dak (liftmachinekamers)",
+      "peil": 11.7
+    }
+  ],
+  "vrLokaal": "110.037",
+  "lokalen": [
+    {
+      "nr": "090.001",
+      "functie": "berging",
+      "niveau": "090",
+      "peil": -2.77,
+      "hoogte": 3.25,
+      "opp": 216.1,
+      "midden": [
+        70.309,
+        111.033
+      ]
+    },
+    {
+      "nr": "090.002",
+      "functie": "berging",
+      "niveau": "090",
+      "peil": -2.77,
+      "hoogte": 2.3,
+      "opp": 14.8,
+      "midden": [
+        72.999,
+        97.725
+      ]
+    },
+    {
+      "nr": "090.003",
+      "functie": "berging",
+      "niveau": "090",
+      "peil": -3.5,
+      "hoogte": 3.25,
+      "opp": 330.2,
+      "midden": [
+        59.669,
+        109.862
+      ]
+    },
+    {
+      "nr": "090.004",
+      "functie": "berging",
+      "niveau": "090",
+      "peil": -3.5,
+      "hoogte": 3.25,
+      "opp": 20.9,
+      "midden": [
+        50.391,
+        122.079
+      ]
+    },
+    {
+      "nr": "090.005",
+      "functie": "laboratorium",
+      "niveau": "090",
+      "peil": -3.5,
+      "hoogte": 3.25,
+      "opp": 77.3,
+      "midden": [
+        51.15,
+        112.435
+      ]
+    },
+    {
+      "nr": "090.005A",
+      "functie": "laboratorium",
+      "niveau": "090",
+      "peil": -3.5,
+      "hoogte": 3.25,
+      "opp": 24.2,
+      "midden": [
+        51.034,
+        102.836
+      ]
+    },
+    {
+      "nr": "090.006",
+      "functie": "laboratorium",
+      "niveau": "090",
+      "peil": -3.5,
+      "hoogte": 3.25,
+      "opp": 13.3,
+      "midden": [
+        52.296,
+        98.005
+      ]
+    },
+    {
+      "nr": "090.007",
+      "functie": "sas",
+      "niveau": "090",
+      "peil": -3.5,
+      "hoogte": 3.25,
+      "opp": 1.2,
+      "midden": [
+        50.218,
+        99.895
+      ]
+    },
+    {
+      "nr": "090.008",
+      "functie": "laboratorium",
+      "niveau": "090",
+      "peil": -3.5,
+      "hoogte": 3.25,
+      "opp": 10.1,
+      "midden": [
+        49.47,
+        97.534
+      ]
+    },
+    {
+      "nr": "090.009",
+      "functie": "gang",
+      "niveau": "090",
+      "peil": -3.5,
+      "hoogte": 3.25,
+      "opp": 72.4,
+      "midden": [
+        57.463,
+        92.771
+      ]
+    },
+    {
+      "nr": "090.009A",
+      "functie": "gang",
+      "niveau": "090",
+      "peil": -3.5,
+      "hoogte": 3.25,
+      "opp": 72.2,
+      "midden": [
+        48.537,
+        61.669
+      ]
+    },
+    {
+      "nr": "090.009B",
+      "functie": "gang",
+      "niveau": "090",
+      "peil": -3.5,
+      "hoogte": 3.25,
+      "opp": 67.5,
+      "midden": [
+        64.507,
+        59.065
+      ]
+    },
+    {
+      "nr": "090.010",
+      "functie": "berging",
+      "niveau": "090",
+      "peil": -2.77,
+      "hoogte": 2.08,
+      "opp": 806.1,
+      "midden": [
+        56.407,
+        59.167
+      ]
+    },
+    {
+      "nr": "090.011",
+      "functie": "techieken",
+      "niveau": "090",
+      "peil": -2.77,
+      "hoogte": 2.08,
+      "opp": 24.2,
+      "midden": [
+        51.478,
+        69.223
+      ]
+    },
+    {
+      "nr": "090.013",
+      "functie": "leidingen",
+      "niveau": "090",
+      "peil": -3.5,
+      "hoogte": 3.25,
+      "opp": 130.6,
+      "midden": [
+        38.101,
+        77.383
+      ]
+    },
+    {
+      "nr": "090.014",
+      "functie": "gang",
+      "niveau": "090",
+      "peil": -3.5,
+      "hoogte": 3.25,
+      "opp": 25.5,
+      "midden": [
+        67.587,
+        74.008
+      ]
+    },
+    {
+      "nr": "090.015",
+      "functie": "leidingen",
+      "niveau": "090",
+      "peil": -3.5,
+      "hoogte": 3.25,
+      "opp": 123.8,
+      "midden": [
+        75.204,
+        73.308
+      ]
+    },
+    {
+      "nr": "090.016",
+      "functie": "gang",
+      "niveau": "090",
+      "peil": -3.5,
+      "hoogte": 3.25,
+      "opp": 25.5,
+      "midden": [
+        45.222,
+        43.927
+      ]
+    },
+    {
+      "nr": "090.017",
+      "functie": "gang",
+      "niveau": "090",
+      "peil": -3.5,
+      "hoogte": 3.25,
+      "opp": 25.5,
+      "midden": [
+        67.22,
+        43.607
+      ]
+    },
+    {
+      "nr": "090.018",
+      "functie": "laboratorium",
+      "niveau": "090",
+      "peil": -3.5,
+      "hoogte": 3.25,
+      "opp": 60.5,
+      "midden": [
+        54.478,
+        25.204
+      ]
+    },
+    {
+      "nr": "090.019",
+      "functie": "technieken",
+      "niveau": "090",
+      "peil": -3.5,
+      "hoogte": 3.25,
+      "opp": 21.8,
+      "midden": [
+        62.396,
+        25.068
+      ]
+    },
+    {
+      "nr": "090.020",
+      "functie": "HVAC",
+      "niveau": "090",
+      "peil": -2.5,
+      "hoogte": 3.25,
+      "opp": 207.8,
+      "midden": [
+        56.743,
+        131.537
+      ]
+    },
+    {
+      "nr": "090.021",
+      "functie": "HVAC",
+      "niveau": "090",
+      "peil": -2.5,
+      "hoogte": 3.25,
+      "opp": 14.1,
+      "midden": [
+        62.027,
+        134.943
+      ]
+    },
+    {
+      "nr": "090.022",
+      "functie": "opslagplaats PMGE",
+      "niveau": "090",
+      "peil": -2.5,
+      "hoogte": 3.25,
+      "opp": 48.1,
+      "midden": [
+        66.808,
+        134.985
+      ]
+    },
+    {
+      "nr": "090.023",
+      "functie": "sas",
+      "niveau": "090",
+      "peil": -2.5,
+      "hoogte": 3.25,
+      "opp": 23.5,
+      "midden": [
+        72.223,
+        134.92
+      ]
+    },
+    {
+      "nr": "090.024",
+      "functie": "elektriciteit",
+      "niveau": "090",
+      "peil": -2.5,
+      "hoogte": 3.25,
+      "opp": 62.1,
+      "midden": [
+        78.545,
+        134.843
+      ]
+    },
+    {
+      "nr": "090.025",
+      "functie": "garage",
+      "niveau": "090",
+      "peil": -1.9,
+      "hoogte": 3.25,
+      "opp": 154.7,
+      "midden": [
+        88.565,
+        139.171
+      ]
+    },
+    {
+      "nr": "090.026",
+      "functie": "laboratorium",
+      "niveau": "090",
+      "peil": -1.9,
+      "hoogte": 2.55,
+      "opp": 219.5,
+      "midden": [
+        65.944,
+        140.874
+      ]
+    },
+    {
+      "nr": "090.027",
+      "functie": "berging",
+      "niveau": "090",
+      "peil": -1.9,
+      "hoogte": 2.55,
+      "opp": 8.8,
+      "midden": [
+        81.337,
+        144.303
+      ]
+    },
+    {
+      "nr": "090.028",
+      "functie": "werkplaats",
+      "niveau": "090",
+      "peil": -1.9,
+      "hoogte": 2.55,
+      "opp": 15.8,
+      "midden": [
+        71.429,
+        143.722
+      ]
+    },
+    {
+      "nr": "090.029",
+      "functie": "kruipkelder",
+      "niveau": "090",
+      "peil": -0.7,
+      "hoogte": 1.3,
+      "opp": 883.9,
+      "midden": [
+        33.122,
+        140.09
+      ]
+    },
+    {
+      "nr": "090.029",
+      "functie": "kruipkelder",
+      "niveau": "090",
+      "peil": -0.7,
+      "hoogte": 1.3,
+      "opp": 883.9,
+      "midden": [
+        33.122,
+        140.09
+      ]
+    },
+    {
+      "nr": "090.901",
+      "functie": "traphal",
+      "niveau": "090",
+      "peil": -2.5,
+      "hoogte": 3.25,
+      "opp": 17.0,
+      "midden": [
+        70.3,
+        97.814
+      ]
+    },
+    {
+      "nr": "090.902",
+      "functie": "traphal",
+      "niveau": "090",
+      "peil": -3.5,
+      "hoogte": 3.25,
+      "opp": 2.5,
+      "midden": [
+        48.152,
+        25.204
+      ]
+    },
+    {
+      "nr": "090.904",
+      "functie": "traphal",
+      "niveau": "090",
+      "peil": -3.5,
+      "hoogte": 3.25,
+      "opp": 1.3,
+      "midden": [
+        51.363,
+        91.231
+      ]
+    },
+    {
+      "nr": "090.951",
+      "functie": "liftkoker",
+      "niveau": "090",
+      "peil": -2.5,
+      "hoogte": 3.25,
+      "opp": 7.7,
+      "midden": [
+        69.459,
+        96.518
+      ]
+    },
+    {
+      "nr": "100.001",
+      "functie": "inkom",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 23.9,
+      "midden": [
+        36.215,
+        142.34
+      ]
+    },
+    {
+      "nr": "100.002",
+      "functie": "gang",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 207.2,
+      "midden": [
+        40.658,
+        134.584
+      ]
+    },
+    {
+      "nr": "100.003",
+      "functie": "gang",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 115.7,
+      "midden": [
+        66.823,
+        133.628
+      ]
+    },
+    {
+      "nr": "100.004",
+      "functie": "sanitair",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 22.0,
+      "midden": [
+        53.016,
+        128.634
+      ]
+    },
+    {
+      "nr": "100.005",
+      "functie": "sas",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 5.3,
+      "midden": [
+        49.584,
+        126.08
+      ]
+    },
+    {
+      "nr": "100.005A",
+      "functie": "sanitair",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 11.3,
+      "midden": [
+        52.61,
+        125.729
+      ]
+    },
+    {
+      "nr": "100.006",
+      "functie": "kantoor",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 26.3,
+      "midden": [
+        50.682,
+        142.184
+      ]
+    },
+    {
+      "nr": "100.007",
+      "functie": "posthoek",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 18.6,
+      "midden": [
+        50.574,
+        133.813
+      ]
+    },
+    {
+      "nr": "100.008",
+      "functie": "leslokaal",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 100.4,
+      "midden": [
+        59.843,
+        142.191
+      ]
+    },
+    {
+      "nr": "100.009",
+      "functie": "statisch archief",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 3.4,
+      "opp": 30.1,
+      "midden": [
+        56.126,
+        132.71
+      ]
+    },
+    {
+      "nr": "100.010",
+      "functie": "pauzelokaal",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 30.3,
+      "midden": [
+        62.426,
+        132.715
+      ]
+    },
+    {
+      "nr": "100.011",
+      "functie": "leszaal",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 113.1,
+      "midden": [
+        75.141,
+        141.991
+      ]
+    },
+    {
+      "nr": "100.011A",
+      "functie": "archief",
+      "niveau": "100",
+      "peil": 1.6,
+      "hoogte": 2.7,
+      "opp": 76.8,
+      "midden": [
+        88.65,
+        141.778
+      ]
+    },
+    {
+      "nr": "100.012",
+      "functie": "studielandschap",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 75.1,
+      "midden": [
+        75.828,
+        133.943
+      ]
+    },
+    {
+      "nr": "100.012A",
+      "functie": "archief",
+      "niveau": "100",
+      "peil": 1.6,
+      "hoogte": 2.7,
+      "opp": 56.5,
+      "midden": [
+        88.67,
+        133.679
+      ]
+    },
+    {
+      "nr": "100.014",
+      "functie": "sanitair",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 28.3,
+      "midden": [
+        61.731,
+        129.438
+      ]
+    },
+    {
+      "nr": "100.015",
+      "functie": "sanitair",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 18.2,
+      "midden": [
+        63.104,
+        125.605
+      ]
+    },
+    {
+      "nr": "100.016",
+      "functie": "ICT",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 11.1,
+      "midden": [
+        57.424,
+        125.658
+      ]
+    },
+    {
+      "nr": "100.017",
+      "functie": "gang",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 45.6,
+      "midden": [
+        66.775,
+        112.203
+      ]
+    },
+    {
+      "nr": "100.018",
+      "functie": "flexwerkplek",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 61.0,
+      "midden": [
+        71.432,
+        119.29
+      ]
+    },
+    {
+      "nr": "100.018A",
+      "functie": "EHBO-lokaal",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 9.6,
+      "midden": [
+        73.592,
+        115.363
+      ]
+    },
+    {
+      "nr": "100.019",
+      "functie": "kleedkamer",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 9.7,
+      "midden": [
+        68.745,
+        111.832
+      ]
+    },
+    {
+      "nr": "100.020",
+      "functie": "kleedkamer",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 35.2,
+      "midden": [
+        71.285,
+        107.291
+      ]
+    },
+    {
+      "nr": "100.021",
+      "functie": "kleedkamer",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.4,
+      "opp": 24.7,
+      "midden": [
+        72.204,
+        112.091
+      ]
+    },
+    {
+      "nr": "100.022",
+      "functie": "sanitair",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 2.2,
+      "opp": 16.1,
+      "midden": [
+        69.556,
+        102.572
+      ]
+    },
+    {
+      "nr": "100.023",
+      "functie": "laboratorium (proefhal)",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 11.2,
+      "opp": 1276.0,
+      "midden": [
+        56.416,
+        59.109
+      ]
+    },
+    {
+      "nr": "100.024",
+      "functie": "gang",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 35.2,
+      "midden": [
+        71.253,
+        92.503
+      ]
+    },
+    {
+      "nr": "100.025",
+      "functie": "opslagplaats afval",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 29.1,
+      "midden": [
+        73.051,
+        100.092
+      ]
+    },
+    {
+      "nr": "100.026",
+      "functie": "opslagplaats PGME",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 2.2,
+      "opp": 7.2,
+      "midden": [
+        72.584,
+        103.145
+      ]
+    },
+    {
+      "nr": "100.027",
+      "functie": "berging",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 35.2,
+      "midden": [
+        71.044,
+        87.688
+      ]
+    },
+    {
+      "nr": "100.028",
+      "functie": "werkplaats",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 107.1,
+      "midden": [
+        70.926,
+        78.088
+      ]
+    },
+    {
+      "nr": "100.029",
+      "functie": "laboratorium",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 31.2,
+      "midden": [
+        69.774,
+        67.387
+      ]
+    },
+    {
+      "nr": "100.030",
+      "functie": "laboratorium",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 74.4,
+      "midden": [
+        70.747,
+        63.601
+      ]
+    },
+    {
+      "nr": "100.031A",
+      "functie": "laboratorium",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 106.0,
+      "midden": [
+        70.567,
+        48.891
+      ]
+    },
+    {
+      "nr": "100.031B",
+      "functie": "laboratorium",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 147.0,
+      "midden": [
+        70.36,
+        32.092
+      ]
+    },
+    {
+      "nr": "100.032",
+      "functie": "werkplaats",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 220.6,
+      "midden": [
+        41.132,
+        39.731
+      ]
+    },
+    {
+      "nr": "100.032A",
+      "functie": "berging",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 11.4,
+      "midden": [
+        44.754,
+        47.653
+      ]
+    },
+    {
+      "nr": "100.032B",
+      "functie": "berging",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 13.7,
+      "midden": [
+        44.627,
+        37.254
+      ]
+    },
+    {
+      "nr": "100.033",
+      "functie": "kantoor",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 2.2,
+      "opp": 5.4,
+      "midden": [
+        39.42,
+        55.175
+      ]
+    },
+    {
+      "nr": "100.034",
+      "functie": "werkplaats",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 197.4,
+      "midden": [
+        41.982,
+        81.82
+      ]
+    },
+    {
+      "nr": "100.035",
+      "functie": "werkplaats",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 65.4,
+      "midden": [
+        42.157,
+        64.134
+      ]
+    },
+    {
+      "nr": "100.036",
+      "functie": "technieken",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 8.2,
+      "midden": [
+        39.583,
+        57.819
+      ]
+    },
+    {
+      "nr": "100.039",
+      "functie": "werkplaats",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 167.1,
+      "midden": [
+        42.748,
+        107.731
+      ]
+    },
+    {
+      "nr": "100.039A",
+      "functie": "kantoor",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 13.0,
+      "midden": [
+        40.573,
+        117.385
+      ]
+    },
+    {
+      "nr": "100.040",
+      "functie": "gang",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 45.8,
+      "midden": [
+        47.376,
+        112.42
+      ]
+    },
+    {
+      "nr": "100.041",
+      "functie": "werkplaats",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 69.2,
+      "midden": [
+        42.85,
+        124.557
+      ]
+    },
+    {
+      "nr": "100.043",
+      "functie": "klimaatkamer",
+      "niveau": "100",
+      "peil": 0.1,
+      "hoogte": 2.45,
+      "opp": 6.4,
+      "midden": [
+        62.407,
+        102.65
+      ]
+    },
+    {
+      "nr": "100.045",
+      "functie": "laboratorium",
+      "niveau": "100",
+      "peil": 0.2,
+      "hoogte": 2.6,
+      "opp": 25.7,
+      "midden": [
+        51.743,
+        113.757
+      ]
+    },
+    {
+      "nr": "100.046",
+      "functie": "klimaatkamer",
+      "niveau": "100",
+      "peil": 0.1,
+      "hoogte": 2.45,
+      "opp": 14.1,
+      "midden": [
+        51.001,
+        119.847
+      ]
+    },
+    {
+      "nr": "100.048",
+      "functie": "laboratorium",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.15,
+      "opp": 126.5,
+      "midden": [
+        28.43,
+        123.881
+      ]
+    },
+    {
+      "nr": "100.049",
+      "functie": "kantoor",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.15,
+      "opp": 24.5,
+      "midden": [
+        21.253,
+        119.262
+      ]
+    },
+    {
+      "nr": "100.050",
+      "functie": "kantoor",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.15,
+      "opp": 24.3,
+      "midden": [
+        21.227,
+        122.83
+      ]
+    },
+    {
+      "nr": "100.051",
+      "functie": "kantoor",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.15,
+      "opp": 24.4,
+      "midden": [
+        21.342,
+        126.472
+      ]
+    },
+    {
+      "nr": "100.052",
+      "functie": "kantoor",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.15,
+      "opp": 24.3,
+      "midden": [
+        21.315,
+        130.029
+      ]
+    },
+    {
+      "nr": "100.053",
+      "functie": "kantoor",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.15,
+      "opp": 24.4,
+      "midden": [
+        21.429,
+        133.581
+      ]
+    },
+    {
+      "nr": "100.054",
+      "functie": "kantoor",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.15,
+      "opp": 37.0,
+      "midden": [
+        21.485,
+        138.128
+      ]
+    },
+    {
+      "nr": "100.055",
+      "functie": "kantoor",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.15,
+      "opp": 37.0,
+      "midden": [
+        21.541,
+        142.72
+      ]
+    },
+    {
+      "nr": "100.056",
+      "functie": "pauzelokaal",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.15,
+      "opp": 32.2,
+      "midden": [
+        30.163,
+        142.388
+      ]
+    },
+    {
+      "nr": "100.057",
+      "functie": "kantoor",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.15,
+      "opp": 36.9,
+      "midden": [
+        21.619,
+        149.012
+      ]
+    },
+    {
+      "nr": "100.058",
+      "functie": "vergaderzaal",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.15,
+      "opp": 22.5,
+      "midden": [
+        30.037,
+        148.841
+      ]
+    },
+    {
+      "nr": "100.059",
+      "functie": "kantoor",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.15,
+      "opp": 49.5,
+      "midden": [
+        21.791,
+        155.312
+      ]
+    },
+    {
+      "nr": "100.060",
+      "functie": "kantoor",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.15,
+      "opp": 25.6,
+      "midden": [
+        21.763,
+        160.719
+      ]
+    },
+    {
+      "nr": "100.061",
+      "functie": "kantoor",
+      "niveau": "100",
+      "peil": 0.9,
+      "hoogte": 3.15,
+      "opp": 22.4,
+      "midden": [
+        30.104,
+        154.241
+      ]
+    },
+    {
+      "nr": "100.900",
+      "functie": "traphal",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.3,
+      "opp": 2.8,
+      "midden": [
+        43.126,
+        134.098
+      ]
+    },
+    {
+      "nr": "100.901",
+      "functie": "traphal",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 8.5,
+      "midden": [
+        69.412,
+        98.934
+      ]
+    },
+    {
+      "nr": "100.902",
+      "functie": "traphal",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 5.1,
+      "midden": [
+        49.668,
+        25.135
+      ]
+    },
+    {
+      "nr": "100.903",
+      "functie": "traphal",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 4.6,
+      "midden": [
+        43.649,
+        57.367
+      ]
+    },
+    {
+      "nr": "100.904",
+      "functie": "traphal",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 4.0,
+      "midden": [
+        49.982,
+        92.602
+      ]
+    },
+    {
+      "nr": "100.905",
+      "functie": "traphal",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.3,
+      "opp": 37.3,
+      "midden": [
+        28.882,
+        160.59
+      ]
+    },
+    {
+      "nr": "100.909",
+      "functie": "brandtrap",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.3,
+      "opp": 14.4,
+      "midden": [
+        20.32,
+        115.373
+      ]
+    },
+    {
+      "nr": "100.910",
+      "functie": "brandtrap",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.3,
+      "opp": 14.7,
+      "midden": [
+        96.126,
+        139.809
+      ]
+    },
+    {
+      "nr": "100.911",
+      "functie": "brandtrap",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.3,
+      "opp": 3.2,
+      "midden": [
+        26.833,
+        163.579
+      ]
+    },
+    {
+      "nr": "100.912",
+      "functie": "traphal",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 1.1,
+      "midden": [
+        45.89,
+        19.996
+      ]
+    },
+    {
+      "nr": "100.913",
+      "functie": "traphal",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 1.1,
+      "midden": [
+        65.988,
+        19.743
+      ]
+    },
+    {
+      "nr": "100.950",
+      "functie": "liftkoker",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.3,
+      "opp": 3.8,
+      "midden": [
+        50.105,
+        130.238
+      ]
+    },
+    {
+      "nr": "100.951",
+      "functie": "liftkoker",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 7.7,
+      "midden": [
+        69.477,
+        96.483
+      ]
+    },
+    {
+      "nr": "100.952",
+      "functie": "liftkoker",
+      "niveau": "100",
+      "peil": 0.0,
+      "hoogte": 4.05,
+      "opp": 5.7,
+      "midden": [
+        44.287,
+        60.46
+      ]
+    },
+    {
+      "nr": "110.002",
+      "functie": "sanitair",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 22.0,
+      "midden": [
+        53.014,
+        128.632
+      ]
+    },
+    {
+      "nr": "110.003A",
+      "functie": "sanitair",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 11.1,
+      "midden": [
+        52.668,
+        125.712
+      ]
+    },
+    {
+      "nr": "110.004",
+      "functie": "vergaderzaal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 30.7,
+      "midden": [
+        42.944,
+        127.055
+      ]
+    },
+    {
+      "nr": "110.005",
+      "functie": "kantoor",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 38.7,
+      "midden": [
+        51.733,
+        142.332
+      ]
+    },
+    {
+      "nr": "110.006",
+      "functie": "kantoor",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 37.1,
+      "midden": [
+        57.142,
+        142.231
+      ]
+    },
+    {
+      "nr": "110.007",
+      "functie": "projectlokaal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 16.0,
+      "midden": [
+        54.447,
+        133.744
+      ]
+    },
+    {
+      "nr": "110.008",
+      "functie": "kopieerlokaal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 19.5,
+      "midden": [
+        50.685,
+        133.81
+      ]
+    },
+    {
+      "nr": "110.009",
+      "functie": "projectlokaal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 44.2,
+      "midden": [
+        60.678,
+        133.741
+      ]
+    },
+    {
+      "nr": "110.010",
+      "functie": "kantoor",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 37.1,
+      "midden": [
+        62.542,
+        142.164
+      ]
+    },
+    {
+      "nr": "110.011",
+      "functie": "kantoor",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 37.1,
+      "midden": [
+        67.941,
+        142.098
+      ]
+    },
+    {
+      "nr": "110.012",
+      "functie": "kantoor",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 37.7,
+      "midden": [
+        72.228,
+        134.101
+      ]
+    },
+    {
+      "nr": "110.013",
+      "functie": "kantoor",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 37.1,
+      "midden": [
+        73.341,
+        142.031
+      ]
+    },
+    {
+      "nr": "110.014",
+      "functie": "kantoor",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 36.6,
+      "midden": [
+        79.541,
+        133.894
+      ]
+    },
+    {
+      "nr": "110.015",
+      "functie": "kantoor",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 49.3,
+      "midden": [
+        79.616,
+        141.835
+      ]
+    },
+    {
+      "nr": "110.016",
+      "functie": "kantoor",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 17.9,
+      "midden": [
+        84.941,
+        133.827
+      ]
+    },
+    {
+      "nr": "110.017",
+      "functie": "kantoor",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 36.0,
+      "midden": [
+        85.965,
+        141.875
+      ]
+    },
+    {
+      "nr": "110.018",
+      "functie": "kantoor",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 37.9,
+      "midden": [
+        91.342,
+        141.775
+      ]
+    },
+    {
+      "nr": "110.019",
+      "functie": "kantoor",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 37.9,
+      "midden": [
+        90.469,
+        133.676
+      ]
+    },
+    {
+      "nr": "110.022",
+      "functie": "berging",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 11.2,
+      "midden": [
+        57.422,
+        125.641
+      ]
+    },
+    {
+      "nr": "110.023",
+      "functie": "gang",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 367.6,
+      "midden": [
+        66.197,
+        61.508
+      ]
+    },
+    {
+      "nr": "110.023A",
+      "functie": "gang",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 45.5,
+      "midden": [
+        66.772,
+        112.211
+      ]
+    },
+    {
+      "nr": "110.023B",
+      "functie": "gang",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 45.5,
+      "midden": [
+        47.374,
+        112.428
+      ]
+    },
+    {
+      "nr": "110.024",
+      "functie": "pauzelokaal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 144.3,
+      "midden": [
+        71.37,
+        114.408
+      ]
+    },
+    {
+      "nr": "110.025",
+      "functie": "verbruikslokaal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 35.2,
+      "midden": [
+        71.222,
+        102.409
+      ]
+    },
+    {
+      "nr": "110.026",
+      "functie": "liftmachinekamer",
+      "niveau": "110",
+      "peil": 6.1,
+      "hoogte": 1.9,
+      "opp": 18.1,
+      "midden": [
+        73.018,
+        97.609
+      ]
+    },
+    {
+      "nr": "110.027",
+      "functie": "laboratorium",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 107.9,
+      "midden": [
+        71.499,
+        88.598
+      ]
+    },
+    {
+      "nr": "110.028",
+      "functie": "laboratorium",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 71.7,
+      "midden": [
+        70.893,
+        75.726
+      ]
+    },
+    {
+      "nr": "110.029",
+      "functie": "laboratorium",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 35.1,
+      "midden": [
+        70.804,
+        68.527
+      ]
+    },
+    {
+      "nr": "110.030",
+      "functie": "laboratorium",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 35.2,
+      "midden": [
+        70.745,
+        63.727
+      ]
+    },
+    {
+      "nr": "110.031",
+      "functie": "laboratorium",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 37.6,
+      "midden": [
+        70.685,
+        58.927
+      ]
+    },
+    {
+      "nr": "110.032",
+      "functie": "werkplaats",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 33.4,
+      "midden": [
+        70.772,
+        53.759
+      ]
+    },
+    {
+      "nr": "110.033",
+      "functie": "laboratorium",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 219.5,
+      "midden": [
+        70.414,
+        36.929
+      ]
+    },
+    {
+      "nr": "110.034",
+      "functie": "laboratorium",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 4.2,
+      "opp": 379.7,
+      "midden": [
+        57.096,
+        114.162
+      ]
+    },
+    {
+      "nr": "110.034A",
+      "functie": "laboratorium",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 4.2,
+      "opp": 11.0,
+      "midden": [
+        63.684,
+        102.252
+      ]
+    },
+    {
+      "nr": "110.036",
+      "functie": "practicumzaal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 72.1,
+      "midden": [
+        42.902,
+        119.648
+      ]
+    },
+    {
+      "nr": "110.037",
+      "functie": "VR-lokaal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 53.7,
+      "midden": [
+        42.348,
+        110.937
+      ]
+    },
+    {
+      "nr": "110.037A",
+      "functie": "practicumzaal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 53.7,
+      "midden": [
+        42.259,
+        103.737
+      ]
+    },
+    {
+      "nr": "110.037B",
+      "functie": "tentoonstellingsruimte",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 36.4,
+      "midden": [
+        42.636,
+        98.05
+      ]
+    },
+    {
+      "nr": "110.038",
+      "functie": "werkplaats",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 107.3,
+      "midden": [
+        42.513,
+        88.051
+      ]
+    },
+    {
+      "nr": "110.039",
+      "functie": "kantoor",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 35.1,
+      "midden": [
+        42.394,
+        78.452
+      ]
+    },
+    {
+      "nr": "110.040",
+      "functie": "kantoor",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 35.1,
+      "midden": [
+        42.335,
+        73.652
+      ]
+    },
+    {
+      "nr": "110.041",
+      "functie": "laboratorium",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 35.1,
+      "midden": [
+        42.276,
+        68.852
+      ]
+    },
+    {
+      "nr": "110.042",
+      "functie": "laboratorium",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 35.1,
+      "midden": [
+        42.216,
+        64.053
+      ]
+    },
+    {
+      "nr": "110.043",
+      "functie": "liftmachine",
+      "niveau": "110",
+      "peil": 6.1,
+      "hoogte": 1.9,
+      "opp": 19.1,
+      "midden": [
+        40.061,
+        59.201
+      ]
+    },
+    {
+      "nr": "110.044",
+      "functie": "practicumzaal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 32.9,
+      "midden": [
+        41.964,
+        54.139
+      ]
+    },
+    {
+      "nr": "110.045",
+      "functie": "practicumzaal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 145.6,
+      "midden": [
+        41.946,
+        42.169
+      ]
+    },
+    {
+      "nr": "110.046",
+      "functie": "kantoor",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.15,
+      "opp": 33.5,
+      "midden": [
+        30.238,
+        127.491
+      ]
+    },
+    {
+      "nr": "110.047",
+      "functie": "kantoor",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.15,
+      "opp": 50.2,
+      "midden": [
+        28.383,
+        121.222
+      ]
+    },
+    {
+      "nr": "110.048",
+      "functie": "sas",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.15,
+      "opp": 17.7,
+      "midden": [
+        26.698,
+        127.306
+      ]
+    },
+    {
+      "nr": "110.049",
+      "functie": "vergaderzaal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.15,
+      "opp": 87.6,
+      "midden": [
+        21.252,
+        123.988
+      ]
+    },
+    {
+      "nr": "110.050",
+      "functie": "kantoor",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.15,
+      "opp": 92.3,
+      "midden": [
+        22.293,
+        135.461
+      ]
+    },
+    {
+      "nr": "110.051",
+      "functie": "HVAC",
+      "niveau": "110",
+      "peil": 4.4,
+      "hoogte": 3.25,
+      "opp": 48.3,
+      "midden": [
+        28.696,
+        153.225
+      ]
+    },
+    {
+      "nr": "110.052",
+      "functie": "HVAC",
+      "niveau": "110",
+      "peil": 4.4,
+      "hoogte": 3.25,
+      "opp": 48.3,
+      "midden": [
+        21.696,
+        153.269
+      ]
+    },
+    {
+      "nr": "110.900",
+      "functie": "traphal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 10.1,
+      "midden": [
+        42.692,
+        133.183
+      ]
+    },
+    {
+      "nr": "110.901",
+      "functie": "traphal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 2.4,
+      "opp": 8.2,
+      "midden": [
+        69.408,
+        98.884
+      ]
+    },
+    {
+      "nr": "110.903",
+      "functie": "traphal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 2.05,
+      "opp": 9.6,
+      "midden": [
+        43.661,
+        57.938
+      ]
+    },
+    {
+      "nr": "110.905",
+      "functie": "traphal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.15,
+      "opp": 6.8,
+      "midden": [
+        29.827,
+        157.803
+      ]
+    },
+    {
+      "nr": "110.906",
+      "functie": "traphal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.15,
+      "opp": 2.6,
+      "midden": [
+        27.881,
+        161.585
+      ]
+    },
+    {
+      "nr": "110.907",
+      "functie": "traphal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.15,
+      "opp": 2.6,
+      "midden": [
+        22.712,
+        161.649
+      ]
+    },
+    {
+      "nr": "110.909",
+      "functie": "brandtrap",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.15,
+      "opp": 14.4,
+      "midden": [
+        20.318,
+        115.373
+      ]
+    },
+    {
+      "nr": "110.910",
+      "functie": "brandtrap",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.4,
+      "opp": 14.7,
+      "midden": [
+        96.125,
+        139.806
+      ]
+    },
+    {
+      "nr": "110.912",
+      "functie": "traphal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 10.7,
+      "midden": [
+        46.432,
+        19.924
+      ]
+    },
+    {
+      "nr": "110.913",
+      "functie": "traphal",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 3.5,
+      "opp": 10.7,
+      "midden": [
+        65.451,
+        19.689
+      ]
+    },
+    {
+      "nr": "110.950",
+      "functie": "liftkoker",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 2.1,
+      "opp": 3.8,
+      "midden": [
+        50.104,
+        130.237
+      ]
+    },
+    {
+      "nr": "110.951",
+      "functie": "liftkoker",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 2.05,
+      "opp": 7.7,
+      "midden": [
+        69.474,
+        96.48
+      ]
+    },
+    {
+      "nr": "110.952",
+      "functie": "liftkoker",
+      "niveau": "110",
+      "peil": 4.5,
+      "hoogte": 2.05,
+      "opp": 5.7,
+      "midden": [
+        44.281,
+        60.379
+      ]
+    },
+    {
+      "nr": "120.001",
+      "functie": "gang",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 136.3,
+      "midden": [
+        37.134,
+        134.59
+      ]
+    },
+    {
+      "nr": "120.002",
+      "functie": "sanitair",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 13.7,
+      "midden": [
+        49.847,
+        134.539
+      ]
+    },
+    {
+      "nr": "120.003",
+      "functie": "sanitair",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 11.7,
+      "midden": [
+        52.691,
+        134.102
+      ]
+    },
+    {
+      "nr": "120.004",
+      "functie": "berging",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 1.3,
+      "midden": [
+        51.716,
+        135.663
+      ]
+    },
+    {
+      "nr": "120.005",
+      "functie": "kantoor",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 37.1,
+      "midden": [
+        57.141,
+        142.151
+      ]
+    },
+    {
+      "nr": "120.006",
+      "functie": "kantoor",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 38.7,
+      "midden": [
+        51.733,
+        142.332
+      ]
+    },
+    {
+      "nr": "120.007",
+      "functie": "kantoor",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 36.8,
+      "midden": [
+        62.518,
+        142.085
+      ]
+    },
+    {
+      "nr": "120.008",
+      "functie": "gang",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 73.5,
+      "midden": [
+        74.913,
+        137.366
+      ]
+    },
+    {
+      "nr": "120.009",
+      "functie": "kantoor",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 24.4,
+      "midden": [
+        58.789,
+        133.84
+      ]
+    },
+    {
+      "nr": "120.010",
+      "functie": "bibliotheek",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 24.0,
+      "midden": [
+        64.238,
+        133.773
+      ]
+    },
+    {
+      "nr": "120.011",
+      "functie": "kantoor",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 36.8,
+      "midden": [
+        67.963,
+        142.018
+      ]
+    },
+    {
+      "nr": "120.012",
+      "functie": "kantoor",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 56.5,
+      "midden": [
+        73.216,
+        133.769
+      ]
+    },
+    {
+      "nr": "120.013",
+      "functie": "kantoor",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 24.4,
+      "midden": [
+        72.44,
+        141.962
+      ]
+    },
+    {
+      "nr": "120.014",
+      "functie": "kantoor",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 36.8,
+      "midden": [
+        76.917,
+        141.907
+      ]
+    },
+    {
+      "nr": "120.015",
+      "functie": "bibliotheek",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 37.1,
+      "midden": [
+        83.169,
+        133.899
+      ]
+    },
+    {
+      "nr": "120.016",
+      "functie": "kantoor",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 24.2,
+      "midden": [
+        81.467,
+        141.841
+      ]
+    },
+    {
+      "nr": "120.016A",
+      "functie": "kantoor",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 24.6,
+      "midden": [
+        85.039,
+        141.797
+      ]
+    },
+    {
+      "nr": "120.018",
+      "functie": "bibliotheek",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 24.6,
+      "midden": [
+        88.639,
+        141.752
+      ]
+    },
+    {
+      "nr": "120.018A",
+      "functie": "kantoor",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 24.7,
+      "midden": [
+        92.243,
+        141.708
+      ]
+    },
+    {
+      "nr": "120.019",
+      "functie": "kantoor",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 18.4,
+      "midden": [
+        88.541,
+        133.833
+      ]
+    },
+    {
+      "nr": "120.020",
+      "functie": "pauzelokaal",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 18.4,
+      "midden": [
+        92.146,
+        133.789
+      ]
+    },
+    {
+      "nr": "120.023",
+      "functie": "auditorium",
+      "niveau": "120",
+      "peil": 4.5,
+      "hoogte": 7.0,
+      "opp": 250.6,
+      "midden": [
+        25.153,
+        149.826
+      ]
+    },
+    {
+      "nr": "120.024",
+      "functie": "technieken",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 12.3,
+      "midden": [
+        25.287,
+        160.658
+      ]
+    },
+    {
+      "nr": "120.026",
+      "functie": "lockers",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 2.5,
+      "opp": 8.4,
+      "midden": [
+        25.036,
+        139.585
+      ]
+    },
+    {
+      "nr": "120.027",
+      "functie": "kantoor",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 2.75,
+      "opp": 52.5,
+      "midden": [
+        20.45,
+        134.882
+      ]
+    },
+    {
+      "nr": "120.028",
+      "functie": "overlegplek",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 2.5,
+      "opp": 16.3,
+      "midden": [
+        24.992,
+        136.117
+      ]
+    },
+    {
+      "nr": "120.029",
+      "functie": "overlegplek",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 2.5,
+      "opp": 12.8,
+      "midden": [
+        24.94,
+        132.058
+      ]
+    },
+    {
+      "nr": "120.030",
+      "functie": "kopieerlokaal",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 2.5,
+      "opp": 11.2,
+      "midden": [
+        30.332,
+        130.978
+      ]
+    },
+    {
+      "nr": "120.031",
+      "functie": "kantoor",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 2.75,
+      "opp": 64.0,
+      "midden": [
+        29.376,
+        125.399
+      ]
+    },
+    {
+      "nr": "120.032",
+      "functie": "lockers",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 2.5,
+      "opp": 8.4,
+      "midden": [
+        24.902,
+        129.068
+      ]
+    },
+    {
+      "nr": "120.033",
+      "functie": "kantoor",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 2.75,
+      "opp": 63.9,
+      "midden": [
+        20.33,
+        125.306
+      ]
+    },
+    {
+      "nr": "120.034",
+      "functie": "concentratiewerkplek",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 2.5,
+      "opp": 13.0,
+      "midden": [
+        24.864,
+        126.048
+      ]
+    },
+    {
+      "nr": "120.035",
+      "functie": "dynamisch archief",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 2.5,
+      "opp": 8.2,
+      "midden": [
+        24.825,
+        123.058
+      ]
+    },
+    {
+      "nr": "120.036",
+      "functie": "overlegplek",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 2.5,
+      "opp": 3.6,
+      "midden": [
+        25.759,
+        120.806
+      ]
+    },
+    {
+      "nr": "120.037",
+      "functie": "overlegplek",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 2.5,
+      "opp": 3.6,
+      "midden": [
+        23.834,
+        120.831
+      ]
+    },
+    {
+      "nr": "120.038",
+      "functie": "dynamisch archief",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 2.5,
+      "opp": 8.2,
+      "midden": [
+        24.768,
+        118.578
+      ]
+    },
+    {
+      "nr": "120.800",
+      "functie": "HVAC",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 2.5,
+      "opp": 43.6,
+      "midden": [
+        29.784,
+        137.911
+      ]
+    },
+    {
+      "nr": "120.900",
+      "functie": "traphal",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 9.6,
+      "midden": [
+        42.802,
+        133.2
+      ]
+    },
+    {
+      "nr": "120.906",
+      "functie": "traphal",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 15.7,
+      "midden": [
+        31.513,
+        160.72
+      ]
+    },
+    {
+      "nr": "120.907",
+      "functie": "traphal",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 15.7,
+      "midden": [
+        19.063,
+        160.811
+      ]
+    },
+    {
+      "nr": "120.908",
+      "functie": "traphal",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 10.1,
+      "midden": [
+        55.155,
+        132.73
+      ]
+    },
+    {
+      "nr": "120.909",
+      "functie": "brandtrap",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 14.6,
+      "midden": [
+        20.326,
+        115.373
+      ]
+    },
+    {
+      "nr": "120.910",
+      "functie": "brandtrap",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 3.4,
+      "opp": 14.6,
+      "midden": [
+        96.125,
+        139.806
+      ]
+    },
+    {
+      "nr": "120.950",
+      "functie": "liftkoker",
+      "niveau": "120",
+      "peil": 8.1,
+      "hoogte": 2.05,
+      "opp": 3.8,
+      "midden": [
+        50.104,
+        130.237
+      ]
+    },
+    {
+      "nr": "130.002",
+      "functie": "liftmachine",
+      "niveau": "130",
+      "peil": 11.7,
+      "hoogte": 2.65,
+      "opp": 11.2,
+      "midden": [
+        52.713,
+        132.6
+      ]
+    },
+    {
+      "nr": "130.003",
+      "functie": "liftmachine",
+      "niveau": "130",
+      "peil": 11.7,
+      "hoogte": 2.65,
+      "opp": 16.0,
+      "midden": [
+        50.121,
+        132.822
+      ]
+    },
+    {
+      "nr": "130.908",
+      "functie": "traphal",
+      "niveau": "130",
+      "peil": 11.7,
+      "hoogte": 2.65,
+      "opp": 15.4,
+      "midden": [
+        54.614,
+        132.7
+      ]
+    }
+  ],
+  "markers": []
+}

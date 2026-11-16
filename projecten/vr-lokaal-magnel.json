@@ -1,0 +1,569 @@
+{
+  "id": "vr-lokaal-magnel",
+  "naam": "VR-lokaal Labo Magnel Zwijnaarde",
+  "soort": "ruimte",
+  "status": "aanname",
+  "beschrijving": "Lokaal 110.037 (VR-lokaal, op plan 2010: practicumzaal), verdieping 1 op peil +4.50, Labo Magnel, Technologiepark Zwijnaarde 904. 53.7 m²; westwand = zaagtandgevel, oostwand = gang 110.023B. Uitgesneden uit het gebouwmodel.",
+  "bron": "Labo-Magnel_basismodel.ifc (DXF 2010 + scans 1969-1990 + DWG 2005)",
+  "ifcBron": {
+    "gebouw": "labo-magnel.ifc",
+    "lokaal": "vr-lokaal-110.037.ifc",
+    "verschuiving": [
+      38.04,
+      107.647
+    ],
+    "peil": 4.5,
+    "assen": "app x = plan x; app z = 7.144 − plan y (lokaalcoördinaten)"
+  },
+  "info": {
+    "bouwperiode": "1945-1970",
+    "gebouwhoogte": "laag",
+    "functie": "klas"
+  },
+  "gebouw": {
+    "type": "school",
+    "vloer": "welfsels",
+    "qk": 5.0,
+    "draagrichting": "lang",
+    "vloerBekend": {
+      "h": 450,
+      "bron": "OB16 (1970)",
+      "omschrijving": "prefab vloerelementen van 1,80 m breed op gevelbalk B.5 en binnenbalk B.6; steunpunten van B.6 om de 4,80 m (dikte 450 mm = aanname, zoals de gelijkaardige elementen van Blok B)",
+      "lasten": "Nuttige last 500 kg/m² (5,0 kN/m²) + lijnlast 700 kg/m om de 1,80 m voor muren"
+    },
+    "fyk": 400,
+    "staal": "BE 40 (TOR 40), volgens OB41-OB48",
+    "beton": "C25/30",
+    "milieuklasse": "XC1",
+    "verwarming": "radiator",
+    "ventilatie": "D",
+    "gebouwhoogte": "laag",
+    "hStopcontact": 0.3,
+    "vloerDikte": 0.45,
+    "dakDikte": 0.3,
+    "vloeropbouw": {
+      "afwerking": 0.01,
+      "chape": 0.06,
+      "isolatie": 0.0
+    }
+  },
+  "ruimte": {
+    "naam": "VR-lokaal",
+    "vloer": [
+      [
+        8.135,
+        7.144
+      ],
+      [
+        1.295,
+        7.059
+      ],
+      [
+        1.296,
+        6.992
+      ],
+      [
+        0.823,
+        6.987
+      ],
+      [
+        0.0,
+        5.521
+      ],
+      [
+        1.119,
+        4.89
+      ],
+      [
+        1.322,
+        4.893
+      ],
+      [
+        1.336,
+        4.593
+      ],
+      [
+        0.852,
+        4.587
+      ],
+      [
+        0.03,
+        3.121
+      ],
+      [
+        1.148,
+        2.49
+      ],
+      [
+        1.352,
+        2.493
+      ],
+      [
+        1.355,
+        2.193
+      ],
+      [
+        0.882,
+        2.187
+      ],
+      [
+        0.059,
+        0.721
+      ],
+      [
+        1.178,
+        0.09
+      ],
+      [
+        1.381,
+        0.093
+      ],
+      [
+        1.382,
+        0.0
+      ],
+      [
+        8.222,
+        0.084
+      ]
+    ],
+    "hoogte": 3.5,
+    "vrijeHoogtePlan": null,
+    "wanden": {
+      "0": "scheiding",
+      "1": "buiten",
+      "2": "buiten",
+      "3": "buiten",
+      "4": "buiten",
+      "5": "buiten",
+      "6": "buiten",
+      "7": "buiten",
+      "8": "buiten",
+      "9": "buiten",
+      "10": "buiten",
+      "11": "buiten",
+      "12": "buiten",
+      "13": "buiten",
+      "14": "buiten",
+      "15": "buiten",
+      "16": "buiten",
+      "17": "scheiding",
+      "18": "gang"
+    },
+    "openingen": [
+      {
+        "type": "deur",
+        "x": 8.168,
+        "z": 4.414,
+        "breedte": 0.96,
+        "hoogte": 2.1,
+        "bevestigd": true,
+        "bron": "plan 2010"
+      },
+      {
+        "type": "deur",
+        "x": 8.192,
+        "z": 2.494,
+        "breedte": 0.96,
+        "hoogte": 2.1,
+        "bevestigd": true,
+        "bron": "plan 2010"
+      },
+      {
+        "type": "raam",
+        "x": 0.823,
+        "z": 6.987,
+        "breedte": 1.062,
+        "borstwering": 0.2,
+        "hoogte": 2.9,
+        "bevestigd": true,
+        "bron": "plan 2010 (buitenschrijnwerk) + snedes 1969"
+      },
+      {
+        "type": "raam",
+        "x": 0.458,
+        "z": 5.263,
+        "breedte": 1.051,
+        "borstwering": 0.2,
+        "hoogte": 2.9,
+        "bevestigd": true,
+        "bron": "plan 2010 (buitenschrijnwerk) + snedes 1969"
+      },
+      {
+        "type": "raam",
+        "x": 0.487,
+        "z": 2.863,
+        "breedte": 1.062,
+        "borstwering": 0.2,
+        "hoogte": 2.9,
+        "bevestigd": true,
+        "bron": "plan 2010 (buitenschrijnwerk) + snedes 1969"
+      },
+      {
+        "type": "raam",
+        "x": 0.517,
+        "z": 0.463,
+        "breedte": 1.051,
+        "borstwering": 0.2,
+        "hoogte": 2.9,
+        "bevestigd": true,
+        "bron": "plan 2010 (buitenschrijnwerk) + snedes 1969"
+      }
+    ],
+    "objecten": [
+      {
+        "type": "kolom",
+        "x": 1.233,
+        "z": -0.059,
+        "breedte": 0.3,
+        "diepte": 0.3,
+        "materiaal": "beton",
+        "bevestigd": true,
+        "wapening": "K30-110",
+        "bron": "plan 2010 (arcering) + OB75"
+      },
+      {
+        "type": "kolom",
+        "x": 1.174,
+        "z": 4.741,
+        "breedte": 0.3,
+        "diepte": 0.3,
+        "materiaal": "beton",
+        "bevestigd": true,
+        "wapening": "K30-110",
+        "bron": "plan 2010 (arcering) + OB75"
+      },
+      {
+        "type": "kolom",
+        "x": 1.203,
+        "z": 2.341,
+        "breedte": 0.3,
+        "diepte": 0.3,
+        "materiaal": "beton",
+        "bevestigd": true,
+        "wapening": "K30-110",
+        "bron": "plan 2010 (arcering) + OB75"
+      },
+      {
+        "type": "kolom",
+        "x": 1.144,
+        "z": 7.14,
+        "breedte": 0.3,
+        "diepte": 0.3,
+        "materiaal": "beton",
+        "bevestigd": true,
+        "wapening": "K30-110",
+        "bron": "plan 2010 (arcering) + OB75"
+      },
+      {
+        "type": "kolom",
+        "x": 10.513,
+        "z": -0.034,
+        "breedte": 0.6,
+        "diepte": 0.4,
+        "materiaal": "beton",
+        "bevestigd": true,
+        "wapening": "K40x60-110",
+        "bron": "plan 2010 + OB75"
+      },
+      {
+        "type": "kolom",
+        "x": 10.454,
+        "z": 4.766,
+        "breedte": 0.6,
+        "diepte": 0.4,
+        "materiaal": "beton",
+        "bevestigd": true,
+        "wapening": "K40x60-110",
+        "bron": "plan 2010 + OB75"
+      },
+      {
+        "type": "kolom",
+        "x": 10.395,
+        "z": 9.565,
+        "breedte": 0.6,
+        "diepte": 0.4,
+        "materiaal": "beton",
+        "bevestigd": true,
+        "wapening": "K40x60-110",
+        "bron": "plan 2010 + OB75"
+      },
+      {
+        "type": "lichtpunt",
+        "x": 2.537,
+        "z": 1.786,
+        "bevestigd": false,
+        "bron": "OB98 (1974): inbouwarmatuur 2×65 W in verlaagd plafond; plaats = aanname"
+      },
+      {
+        "type": "lichtpunt",
+        "x": 4.811,
+        "z": 1.786,
+        "bevestigd": false,
+        "bron": "OB98 (1974): inbouwarmatuur 2×65 W in verlaagd plafond; plaats = aanname"
+      },
+      {
+        "type": "lichtpunt",
+        "x": 7.085,
+        "z": 1.786,
+        "bevestigd": false,
+        "bron": "OB98 (1974): inbouwarmatuur 2×65 W in verlaagd plafond; plaats = aanname"
+      },
+      {
+        "type": "lichtpunt",
+        "x": 2.537,
+        "z": 5.358,
+        "bevestigd": false,
+        "bron": "OB98 (1974): inbouwarmatuur 2×65 W in verlaagd plafond; plaats = aanname"
+      },
+      {
+        "type": "lichtpunt",
+        "x": 4.811,
+        "z": 5.358,
+        "bevestigd": false,
+        "bron": "OB98 (1974): inbouwarmatuur 2×65 W in verlaagd plafond; plaats = aanname"
+      },
+      {
+        "type": "lichtpunt",
+        "x": 7.085,
+        "z": 5.358,
+        "bevestigd": false,
+        "bron": "OB98 (1974): inbouwarmatuur 2×65 W in verlaagd plafond; plaats = aanname"
+      }
+    ],
+    "wapeningPlan": {
+      "K30-110": {
+        "element": "kolom",
+        "naam": "gevelkolom 30/30",
+        "bron": "OB75 (1971)",
+        "ids": "K2–K12, K16–K26, K32–K42, K126–K134, K140–K152, K156–K166 (66 st.), van vloer boven gelijkvloers tot terras",
+        "staven": [
+          {
+            "n": 4,
+            "d": 18,
+            "L": 4.1,
+            "zijde": "hoeken"
+          }
+        ],
+        "beugels": {
+          "n": 14,
+          "d": 8,
+          "L": 1.14,
+          "s": 0.25
+        },
+        "staal": "BE 22 (A37) volgens de tabelkop van OB75"
+      },
+      "K40x60-110": {
+        "element": "kolom",
+        "naam": "binnenkolom 40/60",
+        "bron": "OB75 (1971)",
+        "ids": "K70–K75 en K118–K123 (12 st.), van vloer boven gelijkvloers tot terras",
+        "staven": [
+          {
+            "n": 6,
+            "d": 22,
+            "L": 4.15,
+            "pos": "a",
+            "zijde": "kort",
+            "metHoeken": true
+          },
+          {
+            "n": 4,
+            "d": 14,
+            "L": 4.15,
+            "pos": "b",
+            "zijde": "lang"
+          }
+        ],
+        "beugels": {
+          "n": 14,
+          "d": 10,
+          "L": 1.94,
+          "s": 0.25
+        },
+        "staal": "BE 22 (A37) volgens de tabelkop van OB75"
+      },
+      "B6": {
+        "element": "balk",
+        "naam": "B.6",
+        "bron": "OB73 (1971); ligging OB16",
+        "doorsnede": [
+          0.4,
+          0.65
+        ],
+        "rol": "binnenbalk onder de vloer +4,50 op de kolomlijn 40/60 (steunpunten om de 4,80 m); de prefab vloerelementen van het VR-lokaal rusten erop",
+        "lijn": [
+          [
+            10.454,
+            -0.034
+          ],
+          [
+            10.454,
+            9.565
+          ]
+        ],
+        "steunpunten": [
+          0.0,
+          4.8,
+          9.599
+        ],
+        "oplegBreedte": 0.2,
+        "onder": [
+          {
+            "n": 4,
+            "d": 20,
+            "doorlopend": true,
+            "omschr": "1 doorlopend (b) + 3 × 5,65 m (a) per vak"
+          }
+        ],
+        "boven": [
+          {
+            "n": 4,
+            "d": 16,
+            "doorlopend": true,
+            "omschr": "doorlopend"
+          },
+          {
+            "n": 2,
+            "d": 28,
+            "L": 3.05,
+            "omschr": "boven steunpunt (m+n)"
+          },
+          {
+            "n": 3,
+            "d": 25,
+            "omschr": "2 × 2,70 m (f)(e) geschrankt + 1 × 3,00 m (g) boven de andere steunpunten"
+          }
+        ],
+        "beugels": {
+          "d": 10,
+          "L": 1.81,
+          "n": "143 per 2 elementen",
+          "staal": "BE 22",
+          "schema": "per vak 6×11, 3×15, 3×20, 25, 30, 25, 3×20, 3×15, 6×11 cm (verdicht naar de steunpunten)",
+          "vak": [
+            0.11,
+            0.11,
+            0.11,
+            0.11,
+            0.11,
+            0.11,
+            0.15,
+            0.15,
+            0.15,
+            0.2,
+            0.2,
+            0.2,
+            0.25,
+            0.3,
+            0.25,
+            0.2,
+            0.2,
+            0.2,
+            0.15,
+            0.15,
+            0.15,
+            0.11,
+            0.11,
+            0.11,
+            0.11,
+            0.11,
+            0.11
+          ]
+        },
+        "extra": "6 × 4 Ø10 × 1,50 m (BE 22) bij de opleggingen van de Preflex-liggers; 1 Ø28 × 3,60 m (d) geschorst aan het einde.\nOp de oplegging van de prefab vloerelementen (OB78): zie het detail hieronder.",
+        "staal": "langsstaven BE 40 (TOR 40), beugels BE 22 (nota OB73)"
+      },
+      "VL-prefab": {
+        "element": "detail",
+        "naam": "oplegging prefab vloerelementen",
+        "bron": "OB78 (1971)",
+        "ids": "detail „supplem. wapening voor geprefabriceerde vloerelementen” – detail langsgevels en detail boven B19",
+        "omschrijving": "doorlopend evenwijdig met de balk: 2 Ø14 + 3 Ø8 alle 15 cm; dwars per module van 1,80 m: 10 Ø12 × 1,20 m alle 15 cm (c) en 2 Ø10 × 1,45 m; ter plaatse van elke kolom bijkomend 2 Ø12 × 1,00 m (c’)",
+        "staal": "BE 40 (TOR 40)"
+      },
+      "B5": {
+        "element": "balk",
+        "naam": "B.5",
+        "bron": "OB73 (1971), snede 7-7",
+        "doorsnede": [
+          0.45,
+          0.6
+        ],
+        "rol": "gevelbalk onder de vloer +4,50 op de lijn van de gevelkolommen 30/30; L-vormige doorsnede: stam 30/60 cm met aan de binnenzijde een tand van 15 cm breed en 20 cm hoog waarop de prefab vloerelementen rusten",
+        "lijn": [
+          [
+            1.233,
+            -0.059
+          ],
+          [
+            1.144,
+            7.14
+          ]
+        ],
+        "steunpunten": [
+          0.0,
+          2.4,
+          4.8,
+          7.199
+        ],
+        "oplegBreedte": 0.3,
+        "onder": [
+          {
+            "n": 3,
+            "d": 16,
+            "doorlopend": true,
+            "omschr": "doorlopend (b)"
+          },
+          {
+            "n": 1,
+            "d": 12,
+            "doorlopend": true,
+            "omschr": "doorlopend"
+          }
+        ],
+        "boven": [
+          {
+            "n": 3,
+            "d": 16,
+            "doorlopend": true,
+            "omschr": "doorlopend"
+          }
+        ],
+        "beugels": {
+          "d": 10,
+          "L": 1.87,
+          "n": "110 per 2 elementen",
+          "staal": "BE 22",
+          "s": 0.2,
+          "schema": "per vak 2×15, 8×20, 2×15 cm",
+          "vak": [
+            0.15,
+            0.15,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.15,
+            0.15
+          ]
+        },
+        "extra": "In de tand: 2 Ø12 doorlopend + 1 Ø10 doorlopend, en beugels Ø10 (B22) × 1,09 m alle 12,5 cm (U-vorm 20/42/20 cm).\nOver de balk heen in de vloer: Ø12 (B22) × 2,00 m alle 15 cm, L-vormig — 120 cm in de vloer, 60 cm naar beneden langs de gevelzijde.",
+        "staal": "langsstaven BE 40 (TOR 40), beugels en haarspelden BE 22 (A37) — nota OB73"
+      }
+    },
+    "wapeningOntbreekt": [
+      "prefab vloerelementen 1,80 m zelf (voorspanning/wapening door de fabrikant, niet op de plannen)",
+      "dakplaat boven het lokaal (+8,00)",
+      "dikte van de vloerelementen (450 mm aangenomen)"
+    ],
+    "verlaagdPlafond": true,
+    "verlichting1974": "6× type 2 inbouw 2×65 W; 1× type 17 opbouw 4×25 W",
+    "oudLokaalnummer": "1.53"
+  },
+  "markers": []
+}
